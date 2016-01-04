@@ -1,0 +1,26 @@
+{
+  "rdfs:label": "List of compositions",
+  "rdfs:comment": "This list displays known compositions or performed works",
+  "annal:default_view": "_view/Work",
+  "annal:default_type": "_type/Work",
+  "annal:record_type": "frbroo:F25_Performance_Plan",
+  "annal:type_id": "_list",
+  "annal:list_entity_selector": "\"frbroo:F25_Performance_Plan\" in [@type]",
+  "annal:display_type": "Enum_list_type/List",
+  "annal:list_fields": [
+    {
+      "annal:field_placement": "small:0,12;medium:0,3",
+      "annal:field_id": "_field/Entity_id"
+    },
+    {
+      "annal:field_placement": "small:0,12;medium:3,9",
+      "annal:field_id": "_field/Entity_label"
+    }
+  ],
+  "annal:id": "Compositions",
+  "@id": "./",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:type": "annal:List"
+}

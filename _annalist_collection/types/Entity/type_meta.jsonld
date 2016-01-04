@@ -1,0 +1,23 @@
+{
+  "rdfs:label": "Entity",
+  "rdfs:comment": "An entity, such as a musical instrument or some other object.  May be manufactured or not (cf. Artifact)",
+  "annal:field_aliases": [],
+  "annal:type_id": "_type",
+  "annal:supertype_uris": [
+    {
+      "annal:supertype_uri": "crm:E77_Persistent_Item"
+    }
+  ],
+  "annal:uri": "prov:Entity",
+  "annal:type_list": "_list/Default_list",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Entity",
+  "@id": "./",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_view": "_view/Default_view"
+}

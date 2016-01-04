@@ -1,0 +1,26 @@
+{
+  "annal:display_type": "List",
+  "rdfs:label": "List of materials",
+  "rdfs:comment": "This list displays known materials.",
+  "annal:id": "Materials",
+  "annal:default_type": "Material",
+  "annal:type_id": "_list",
+  "annal:list_entity_selector": "\"crm:E57_Material\" in [@type]",
+  "annal:record_type": "crm:E57_Material",
+  "annal:list_fields": [
+    {
+      "annal:field_placement": "small:0,3",
+      "annal:field_id": "Entity_id"
+    },
+    {
+      "annal:field_placement": "small:3,9",
+      "annal:field_id": "Entity_label"
+    }
+  ],
+  "annal:default_view": "Material",
+  "@id": "./",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:type": "annal:List"
+}

@@ -1,0 +1,17 @@
+{
+  "rdfs:label": "Performance DMO definitions",
+  "rdfs:comment": "Performance DMO definitions",
+  "annal:software_version": "0.1.23",
+  "annal:type_id": "_coll",
+  "annal:comment": "Performance DMO definitions, edited by hand - 2016-01-04",
+  "annal:default_list": "Performances",
+  "@context": [
+    "coll_context.jsonld"
+  ],
+  "annal:id": "Performance_defs",
+  "@id": "../",
+  "@type": [
+    "annal:Collection"
+  ],
+  "annal:type": "annal:Collection"
+}

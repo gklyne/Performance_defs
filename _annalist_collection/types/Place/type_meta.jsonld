@@ -1,0 +1,15 @@
+{
+  "rdfs:label": "Place",
+  "rdfs:comment": "Location at which some activity took place\r\n\r\nSee also: [crm:E53_Place](http://erlangen-crm.org/docs/ecrm/150218/index.html#anchor1785878506)",
+  "annal:field_aliases": [],
+  "annal:type_id": "_type",
+  "annal:uri": "crm:E53_Place",
+  "annal:type_list": "Places",
+  "annal:id": "Place",
+  "@id": "./",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_view": "Place"
+}

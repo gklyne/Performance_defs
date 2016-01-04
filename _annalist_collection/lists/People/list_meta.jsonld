@@ -1,0 +1,26 @@
+{
+  "annal:display_type": "List",
+  "rdfs:label": "List of people",
+  "rdfs:comment": "List of people",
+  "annal:id": "People",
+  "annal:default_type": "Person",
+  "annal:type_id": "_list",
+  "annal:list_entity_selector": "\"prov:Agent\" in [@type]",
+  "annal:record_type": "prov:Agent",
+  "annal:list_fields": [
+    {
+      "annal:field_placement": "small:0,3",
+      "annal:field_id": "Person_id"
+    },
+    {
+      "annal:field_placement": "small:3,9",
+      "annal:field_id": "Person_name"
+    }
+  ],
+  "annal:default_view": "Person",
+  "@id": "./",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:type": "annal:List"
+}

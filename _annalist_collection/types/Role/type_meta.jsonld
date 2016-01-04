@@ -1,0 +1,15 @@
+{
+  "rdfs:label": "Role",
+  "rdfs:comment": "Role of person in activity",
+  "annal:field_aliases": [],
+  "annal:type_id": "_type",
+  "annal:uri": "prov:Role",
+  "annal:type_list": "Roles",
+  "annal:id": "Role",
+  "@id": "./",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_view": "Role"
+}
