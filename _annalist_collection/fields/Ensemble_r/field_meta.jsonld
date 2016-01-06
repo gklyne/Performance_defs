@@ -1,0 +1,28 @@
+{
+  "rdfs:label": "Members",
+  "rdfs:comment": "Members of ensemble - repeat field 'Member'",
+  "annal:group_ref": "_group/Ensemble_member_r",
+  "annal:type_id": "_field",
+  "annal:placeholder": "(Repeat field Member)",
+  "annal:property_uri": "crm:P107_has_current_or_former_member",
+  "annal:field_ref_type": "",
+  "annal:field_entity_type": "",
+  "@id": "./",
+  "annal:repeat_label_delete": "Remove Member",
+  "annal:field_ref_restriction": "",
+  "annal:field_placement": "small:0,12",
+  "annal:repeat_label_add": "Add Member",
+  "annal:default_value": "",
+  "annal:field_value_type": "annal:Field_group",
+  "annal:field_value_mode": "Enum_value_mode/Value_direct",
+  "annal:field_render_type": "Enum_render_type/RepeatGroupRow",
+  "annal:field_ref_field": "",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Ensemble_r",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:type": "annal:Field"
+}

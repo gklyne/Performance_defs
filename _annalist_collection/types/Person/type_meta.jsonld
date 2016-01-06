@@ -1,10 +1,10 @@
 {
   "rdfs:label": "Person",
-  "rdfs:comment": "Person or agent\r\n\r\nNote that a prov:Agent can also be a prov:Entity.  See [PROV-DM Agents and Responsibility](http://www.w3.org/TR/prov-dm/#section-agents-attribution-association-delegation).\r\n",
+  "rdfs:comment": "Person (as agent)\r\n\r\nSee also: [Agent](../Agent).",
   "annal:field_aliases": [
     {
-      "annal:alias_target": "rdfs:label",
-      "annal:alias_source": "foaf:name"
+      "annal:alias_target": "foaf:name",
+      "annal:alias_source": "rdfs:label"
     }
   ],
   "annal:type_id": "_type",
@@ -13,11 +13,17 @@
       "annal:supertype_uri": "prov:Entity"
     },
     {
+      "annal:supertype_uri": "prov:Agent"
+    },
+    {
+      "annal:supertype_uri": "crm:E39_Actor"
+    },
+    {
       "annal:supertype_uri": "crm:E77_Persistent_Item"
     }
   ],
-  "annal:uri": "prov:Agent",
-  "annal:type_list": "_list/People",
+  "annal:uri": "crm:E21_Person",
+  "annal:type_list": "_list/Agents",
   "@context": [
     "../../coll_context.jsonld"
   ],

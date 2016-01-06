@@ -1,6 +1,6 @@
 # Performance definitions
 
-This repository contains definitions and experimenbtal data for Digital Music Object (DMO) 
+This repository contains definitions and experimental data for Digital Music Object (DMO) 
 descriptions centred on performances.  This repository extends the exploratory Digital 
 Music Object design initially created for the Carolan Guitar's story, and is being 
 created as an activity by Oxford University's OeRC as part of the EPSRC-funded 

@@ -1,0 +1,44 @@
+{
+  "rdfs:label": "A performed work",
+  "rdfs:comment": "A performed work or composition.\r\n\r\nSee also Erlangen [frbroo:F25_Performance_Plan](http://erlangen-crm.org/docs/efrbroo/latest/classes/F25PerformancePlan___933189870.html), [frbroo:F31_Performance](http://erlangen-crm.org/docs/efrbroo/latest/classes/F31Performance___109147093.html) and [F20_Performance_Work](http://erlangen-crm.org/docs/efrbroo/latest/classes/F20PerformanceWork___1623796283.html)\r\n\r\n@@ NOTE: this type is chosen as it is more specific to a performance, but in some cases a performance might better be described as being of a [frbroo:F1_Work](http://erlangen-crm.org/docs/efrbroo/latest/classes/F1Work___-1206156123.html).  This will be a topic for a possible future extension.",
+  "annal:field_aliases": [],
+  "annal:type_id": "_type",
+  "annal:supertype_uris": [
+    {
+      "annal:supertype_uri": "prov:Entity"
+    },
+    {
+      "annal:supertype_uri": "crm:E77_Persistent_Item"
+    },
+    {
+      "annal:supertype_uri": "crm:E70_Thing"
+    },
+    {
+      "annal:supertype_uri": "crm:E71_Man-Made_Thing"
+    },
+    {
+      "annal:supertype_uri": "crm:E29_Design_or_Procedure"
+    },
+    {
+      "annal:supertype_uri": "crm:E73_Information_Object"
+    },
+    {
+      "annal:supertype_uri": "crm:E28_Conceptual_Object"
+    },
+    {
+      "annal:supertype_uri": "frbroo:frbroo:F1_Work"
+    }
+  ],
+  "annal:uri": "frbroo:F20_Performance_Work",
+  "annal:type_list": "_list/Compositions",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Performed_work",
+  "@id": "./",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_view": "_view/Work"
+}

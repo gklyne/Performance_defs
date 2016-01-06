@@ -23,7 +23,7 @@
     {
       "annal:property_uri": "",
       "annal:field_placement": "small:0,12",
-      "annal:field_id": "_field/Location"
+      "annal:field_id": "_field/Place"
     },
     {
       "annal:property_uri": "",
@@ -48,13 +48,13 @@
   ],
   "rdfs:label": "Construction event or activity",
   "rdfs:comment": "Display/edit details of a construction event or activity",
-  "annal:id": "Construction",
+  "annal:open_view": true,
   "annal:type_id": "_view",
   "annal:record_type": "prov:Activity",
   "@context": [
     "../../coll_context.jsonld"
   ],
-  "annal:open_view": true,
+  "annal:id": "Construction",
   "@id": "./",
   "@type": [
     "annal:View"

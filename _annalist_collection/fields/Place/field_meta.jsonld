@@ -1,5 +1,5 @@
 {
-  "rdfs:label": "Place of event",
+  "rdfs:label": "Event location",
   "rdfs:comment": "Location at which activity takes place.",
   "annal:group_ref": "",
   "annal:type_id": "_field",

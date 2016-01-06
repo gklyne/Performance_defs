@@ -1,0 +1,24 @@
+{
+  "rdfs:label": "Group [Member]",
+  "rdfs:comment": "Group for repeated members of ensemble",
+  "annal:id": "Ensemble_member_r",
+  "annal:type_id": "_group",
+  "annal:record_type": "",
+  "annal:uri": "annal:group/_initial_values",
+  "annal:group_fields": [
+    {
+      "annal:property_uri": "@id",
+      "annal:field_placement": "small:0,12",
+      "annal:field_id": "_field/Ensemble_member"
+    }
+  ],
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:add_field": true,
+  "@id": "./",
+  "@type": [
+    "annal:Field_group"
+  ],
+  "annal:type": "annal:Field_group"
+}

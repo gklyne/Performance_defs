@@ -1,0 +1,26 @@
+{
+  "rdfs:label": "Performer",
+  "rdfs:comment": "A person or group who participate in some performance.",
+  "annal:field_aliases": [],
+  "annal:type_id": "_type",
+  "annal:supertype_uris": [
+    {
+      "annal:supertype_uri": "prov:Entity"
+    },
+    {
+      "annal:supertype_uri": "prov:Agent"
+    }
+  ],
+  "annal:uri": "crm:E39_Actor",
+  "annal:type_list": "_list/Agents",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Performer",
+  "@id": "./",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_view": "_view/Performer"
+}

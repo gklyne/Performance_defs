@@ -8,7 +8,7 @@
     {
       "annal:property_uri": "",
       "annal:field_placement": "small:0,12",
-      "annal:field_id": "_field/Person_name"
+      "annal:field_id": "_field/Name"
     },
     {
       "annal:property_uri": "",
@@ -23,13 +23,13 @@
   ],
   "rdfs:label": "Person",
   "rdfs:comment": "View of person or agent",
-  "annal:open_view": true,
+  "annal:id": "Person",
   "annal:type_id": "_view",
   "annal:record_type": "prov:Agent",
   "@context": [
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Person",
+  "annal:open_view": true,
   "@id": "./",
   "@type": [
     "annal:View"

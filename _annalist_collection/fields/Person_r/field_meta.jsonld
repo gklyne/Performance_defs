@@ -1,7 +1,7 @@
 {
   "rdfs:label": "People",
   "rdfs:comment": "People involved in an event",
-  "annal:group_ref": "Person_r",
+  "annal:group_ref": "_group/Person_Role_g",
   "annal:type_id": "_field",
   "annal:placeholder": "",
   "annal:property_uri": "prov:qualifiedAssociation",
@@ -10,13 +10,16 @@
   "@id": "./",
   "annal:repeat_label_delete": "Remove person",
   "annal:field_ref_restriction": "",
-  "annal:field_placement": "small:0,12;medium:0,8",
+  "annal:field_placement": "small:0,12",
   "annal:repeat_label_add": "Add person",
   "annal:default_value": "",
   "annal:field_value_type": "annal:Field_group",
-  "annal:field_value_mode": "Value_direct",
-  "annal:field_render_type": "RepeatGroupRow",
+  "annal:field_value_mode": "Enum_value_mode/Value_direct",
+  "annal:field_render_type": "Enum_render_type/RepeatGroupRow",
   "annal:field_ref_field": "",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
   "annal:id": "Person_r",
   "@type": [
     "annal:Field"
