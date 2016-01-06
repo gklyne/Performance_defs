@@ -1,12 +1,12 @@
 {
-  "annal:display_type": "Enum_list_type/List",
   "rdfs:label": "List of agents",
   "rdfs:comment": "List of agents",
-  "annal:id": "Agents",
+  "annal:default_view": "_view/Person",
   "annal:default_type": "_type/Agent",
+  "annal:record_type": "prov:Agent",
   "annal:type_id": "_list",
   "annal:list_entity_selector": "\"prov:Agent\" in [@type]",
-  "annal:record_type": "prov:Agent",
+  "annal:display_type": "Enum_list_type/List",
   "annal:list_fields": [
     {
       "annal:field_placement": "small:0,3",
@@ -14,13 +14,13 @@
     },
     {
       "annal:field_placement": "small:3,9",
-      "annal:field_id": "_field/Agent_name"
+      "annal:field_id": "_field/Name"
     }
   ],
   "@context": [
     "../../coll_context.jsonld"
   ],
-  "annal:default_view": "_view/Person",
+  "annal:id": "Agents",
   "@id": "./",
   "@type": [
     "annal:List"

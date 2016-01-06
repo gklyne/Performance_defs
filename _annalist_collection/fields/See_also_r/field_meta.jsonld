@@ -1,5 +1,5 @@
 {
-  "rdfs:label": "Entity see also",
+  "rdfs:label": "See also",
   "rdfs:comment": "Links to further information about the artifact",
   "annal:group_ref": "_group/See_also_r",
   "annal:type_id": "_field",

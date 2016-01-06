@@ -7,6 +7,11 @@
     },
     {
       "annal:property_uri": "",
+      "annal:field_placement": "small:0,12;medium:6,6",
+      "annal:field_id": "_field/Entity_type"
+    },
+    {
+      "annal:property_uri": "",
       "annal:field_placement": "small:0,12",
       "annal:field_id": "_field/Name"
     },
@@ -23,13 +28,13 @@
   ],
   "rdfs:label": "Agent",
   "rdfs:comment": "View of agent (person, group or other)",
-  "annal:open_view": true,
+  "annal:id": "Agent",
   "annal:type_id": "_view",
   "annal:record_type": "prov:Agent",
   "@context": [
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Agent",
+  "annal:open_view": true,
   "@id": "./",
   "@type": [
     "annal:View"

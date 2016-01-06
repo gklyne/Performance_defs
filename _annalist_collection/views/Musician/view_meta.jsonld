@@ -7,11 +7,6 @@
     },
     {
       "annal:property_uri": "",
-      "annal:field_placement": "small:0,12;medium:6,6",
-      "annal:field_id": "_field/Entity_type"
-    },
-    {
-      "annal:property_uri": "",
       "annal:field_placement": "small:0,12",
       "annal:field_id": "_field/Name"
     },
@@ -31,15 +26,15 @@
       "annal:field_id": "_field/See_also_r"
     }
   ],
-  "rdfs:label": "Performer",
-  "rdfs:comment": "View of performer",
-  "annal:id": "Performer",
+  "rdfs:label": "Musician",
+  "rdfs:comment": "View of musician",
+  "annal:open_view": true,
   "annal:type_id": "_view",
   "annal:record_type": "crm:E39_Actor",
   "@context": [
     "../../coll_context.jsonld"
   ],
-  "annal:open_view": true,
+  "annal:id": "Musician",
   "@id": "./",
   "@type": [
     "annal:View"

@@ -1,0 +1,23 @@
+{
+  "rdfs:label": "The Maze, Nottingham",
+  "rdfs:comment": "Mixing a host of underground club nights and alternative band nights as well as dabbling in theatre, comedy and poetry nights, it has become a linchpin in the ever growing music community of Nottingham city.\r\n\r\n257 Mansfield Road City Centre, Nottingham NG1 3FT\r\n",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://www.themazerocks.com/info"
+    },
+    {
+      "rdfs:seeAlso": "http://www.themazerocks.com"
+    }
+  ],
+  "annal:type_id": "Place",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "The_Maze_Nottingham",
+  "@id": "./",
+  "@type": [
+    "crm:E53_Place",
+    "annal:EntityData"
+  ],
+  "annal:type": "crm:E53_Place"
+}

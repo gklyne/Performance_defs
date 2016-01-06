@@ -1,12 +1,12 @@
 {
+  "annal:display_type": "Enum_list_type/List",
   "rdfs:label": "List of performances",
   "rdfs:comment": "List of performances",
-  "annal:default_view": "_view/Event",
+  "annal:id": "Performances",
   "annal:default_type": "_type/Performance",
-  "annal:record_type": "frbroo:F31_Performance",
   "annal:type_id": "_list",
   "annal:list_entity_selector": "\"frbroo:F31_Performance\" in [@type]",
-  "annal:display_type": "Enum_list_type/List",
+  "annal:record_type": "frbroo:F31_Performance",
   "annal:list_fields": [
     {
       "annal:field_placement": "small:0,3",
@@ -17,7 +17,10 @@
       "annal:field_id": "_field/Entity_label"
     }
   ],
-  "annal:id": "Performances",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:default_view": "_view/Performance",
   "@id": "./",
   "@type": [
     "annal:List"

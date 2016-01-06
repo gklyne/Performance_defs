@@ -7,6 +7,11 @@
     },
     {
       "annal:property_uri": "",
+      "annal:field_placement": "small:0,12;medium:6,6",
+      "annal:field_id": "_field/Entity_type"
+    },
+    {
+      "annal:property_uri": "",
       "annal:field_placement": "small:0,12",
       "annal:field_id": "_field/Name"
     },
@@ -33,13 +38,13 @@
   ],
   "rdfs:label": "Ensemble",
   "rdfs:comment": "View of ensemble",
-  "annal:open_view": true,
+  "annal:id": "Ensemble",
   "annal:type_id": "_view",
   "annal:record_type": "crm:E74_Group",
   "@context": [
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Ensemble",
+  "annal:open_view": true,
   "@id": "./",
   "@type": [
     "annal:View"
