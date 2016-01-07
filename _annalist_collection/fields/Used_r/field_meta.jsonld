@@ -1,7 +1,7 @@
 {
-  "rdfs:label": "Entities used",
-  "rdfs:comment": "Indicates a list of entities (artifacts or pieces of material) used by an activity.\r\n\r\nNOTE: following PROV, this property does not distinguish between specific entities and material typed in the same way as CRM.  A material type input is referred to as a \"piece of ...\" the appropriate material type.  This design decision may reviewed later.",
-  "annal:group_ref": "Used_r",
+  "rdfs:label": "Instruments used",
+  "rdfs:comment": "Indicates a list of instruments, artifacts, etc., used by an activity.",
+  "annal:group_ref": "_group/Used_r",
   "annal:type_id": "_field",
   "annal:placeholder": "(list of entities used)",
   "annal:property_uri": "prov:used_r",
@@ -14,9 +14,12 @@
   "annal:repeat_label_add": "Add entity used",
   "annal:default_value": "",
   "annal:field_value_type": "annal:Field_group",
-  "annal:field_value_mode": "Value_direct",
-  "annal:field_render_type": "RepeatGroupRow",
+  "annal:field_value_mode": "Enum_value_mode/Value_direct",
+  "annal:field_render_type": "Enum_render_type/RepeatGroupRow",
   "annal:field_ref_field": "",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
   "annal:id": "Used_r",
   "@type": [
     "annal:Field"

@@ -1,6 +1,6 @@
 {
   "rdfs:label": "Carmina and Phil Langran band at the Maze, Nottingham",
-  "rdfs:comment": "Carmina: The line-up for the Maze features the band\u2019s founder members and songwriters Pippa Marland (vocals, saxes, whistles) and Rob King (acoustic guitar, bodhran) with fiddle virtuoso Gina Griffin and London jazz piano star Geoff Castle. \r\n\r\n",
+  "rdfs:comment": "Carmina: The line-up for the Maze features the band\u2019s founder members and songwriters Pippa Marland (vocals, saxes, whistles) and Rob King (acoustic guitar, bodhran) with fiddle virtuoso Gina Griffin and London jazz piano star Geoff Castle. \r\n\r\nPhil Langran: Nottingham songwriter Phil Langran\u2019s songs are engaging, literate and accessible. His versatile band  creates a unique sound firmly rooted in folk, while interweaving elements of American, Celtic, blues and jazz traditions.",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://www.themazerocks.com/gig/carmina-the-phil-langran-band"
@@ -12,6 +12,10 @@
     {
       "crm:P12i_was_present_at": "Ensemble/Carmina",
       "prov:hadRole": "Role/Band_celtic_jazz"
+    },
+    {
+      "crm:P12i_was_present_at": "Ensemble/Phil_Langran_band",
+      "prov:hadRole": "Role/Band_folk_roots"
     }
   ],
   "frbroo:R25F_performed_r": [],

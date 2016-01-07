@@ -7,6 +7,9 @@
     },
     {
       "rdfs:seeAlso": "http://www.themazerocks.com"
+    },
+    {
+      "rdfs:seeAlso": "https://www.google.co.uk/maps/place/Maze/@52.9643532,-1.1546562,17z/data=!3m1!4b1!4m2!3m1!1s0x4879c182db8a8e77:0xc3a3bf01f699af5a"
     }
   ],
   "annal:type_id": "Place",
