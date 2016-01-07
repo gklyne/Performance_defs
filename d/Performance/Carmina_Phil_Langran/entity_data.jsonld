@@ -4,6 +4,9 @@
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://www.themazerocks.com/gig/carmina-the-phil-langran-band"
+    },
+    {
+      "rdfs:seeAlso": "/annalist/c/Performance_defs/l/Journal_entries/"
     }
   ],
   "annal:type_id": "Performance",
