@@ -18,16 +18,20 @@
   "coll:location": "",
   "annal:type_id": "Journal",
   "coll:audio_clips": [],
-  "coll:images": [],
-  "@type": [
-    "coll:Journal",
-    "annal:EntityData"
+  "coll:date": "2016-01-07",
+  "coll:images": [
+    {
+      "coll:Image": "Image/upload_image"
+    }
   ],
   "@context": [
     "../../coll_context.jsonld"
   ],
   "annal:id": "01_resource_list",
   "@id": "./",
-  "coll:date": "2016-01-07",
+  "@type": [
+    "coll:Journal",
+    "annal:EntityData"
+  ],
   "annal:type": "coll:Journal"
 }

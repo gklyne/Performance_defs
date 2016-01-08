@@ -1,0 +1,22 @@
+{
+  "rdfs:label": "Label image",
+  "rdfs:comment": "Stuff about image",
+  "annal:type_id": "Image",
+  "coll:image": {
+    "upload_name": "Uploaded_image",
+    "uploaded_size": 1509337,
+    "resource_name": "Uploaded_image.jpg",
+    "uploaded_file": "20150426-1356-038.jpg",
+    "resource_type": "image/jpeg"
+  },
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "sample_image",
+  "@id": "./",
+  "@type": [
+    "coll:Image",
+    "annal:EntityData"
+  ],
+  "annal:type": "coll:Image"
+}

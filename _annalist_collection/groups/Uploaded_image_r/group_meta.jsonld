@@ -7,8 +7,11 @@
     {
       "annal:property_uri": "",
       "annal:field_placement": "small:0,12",
-      "annal:field_id": "Uploaded_image_m"
+      "annal:field_id": "_field/Uploaded_image_m"
     }
+  ],
+  "@context": [
+    "../../coll_context.jsonld"
   ],
   "annal:id": "Uploaded_image_r",
   "@id": "./",

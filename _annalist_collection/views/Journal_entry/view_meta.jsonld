@@ -48,13 +48,13 @@
   ],
   "rdfs:label": "Journal entry",
   "rdfs:comment": "View of project journal entry",
-  "annal:id": "Journal_entry",
+  "annal:open_view": true,
   "annal:type_id": "_view",
   "annal:record_type": "coll:Journal",
   "@context": [
     "../../coll_context.jsonld"
   ],
-  "annal:open_view": true,
+  "annal:id": "Journal_entry",
   "@id": "./",
   "@type": [
     "annal:View"
