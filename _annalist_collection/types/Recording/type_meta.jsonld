@@ -1,0 +1,38 @@
+{
+  "rdfs:label": "Recording",
+  "rdfs:comment": "A recording of some performance.\r\n\r\nIn FRBR terms, this is an Expression, which may be associated with a variety of deliverable Manifestations (MP3 download, CD, etc.)\r\n\r\nSee also Erlangen\r\n[F29_Recording_Event](http://erlangen-crm.org/docs/efrbroo/120131/classes/F29RecordingEvent___784012137.html):\r\n[R20F_recorded](http://erlangen-crm.org/docs/efrbroo/120131/objectproperties/R20Frecorded___-1031932248.html)\r\nsome \r\n[F31_Performance](http://erlangen-crm.org/docs/efrbroo/120131/classes/F31Performance___1836504452.html),\r\nand\r\n[R21F_created](http://erlangen-crm.org/docs/efrbroo/120131/objectproperties/R21Fcreated___-246394611.html)\r\nsome\r\n[F26_Recording](http://erlangen-crm.org/docs/efrbroo/120131/classes/F26Recording___-909465365.html).\r\n\r\nSee also Music Ontology [mo:recorded_as](http://purl.org/ontology/mo/term-recorded_as) and [mo:records](http://purl.org/ontology/mo/term-records), also [mo:MusicalExpression](http://purl.org/ontology/mo/term-MusicalExpression) and [MusicalManifestation](http://purl.org/ontology/mo/term-MusicalManifestation).",
+  "annal:field_aliases": [],
+  "annal:type_id": "_type",
+  "annal:supertype_uris": [
+    {
+      "annal:supertype_uri": "prov:Entity"
+    },
+    {
+      "annal:supertype_uri": "crm:E70_Thing"
+    },
+    {
+      "annal:supertype_uri": "crm:E71_Man-Made_Thing"
+    },
+    {
+      "annal:supertype_uri": "crm:E28_Conceptual_Object"
+    },
+    {
+      "annal:supertype_uri": "frbroo:F2_Expression"
+    },
+    {
+      "annal:supertype_uri": "mo:MusicalExpression"
+    }
+  ],
+  "annal:uri": "frbroo:F26_Recording",
+  "annal:type_list": "_list/Recording",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Recording",
+  "@id": "./",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_view": "_view/Recording"
+}
