@@ -12,6 +12,9 @@
     },
     {
       "annal:supertype_uri": "crm:E7_Activity"
+    },
+    {
+      "annal:supertype_uri": "mo:Performance"
     }
   ],
   "annal:uri": "frbroo:F31_Performance",
