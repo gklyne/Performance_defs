@@ -1,0 +1,24 @@
+{
+  "rdfs:label": "Repeat field 'Contains'",
+  "rdfs:comment": "Repeat field 'Contains'",
+  "annal:id": "Place_contains_repeat",
+  "annal:type_id": "_group",
+  "annal:record_type": "crm:E53_Place",
+  "annal:uri": "annal:group/_initial_values",
+  "annal:group_fields": [
+    {
+      "annal:property_uri": "crm:P89i_contains",
+      "annal:field_placement": "small:0,12",
+      "annal:field_id": "_field/Place_contains"
+    }
+  ],
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:add_field": true,
+  "@id": "./",
+  "@type": [
+    "annal:Field_group"
+  ],
+  "annal:type": "annal:Field_group"
+}

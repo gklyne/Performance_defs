@@ -1,0 +1,28 @@
+{
+  "rdfs:label": "Discography",
+  "rdfs:comment": "Discography of performer",
+  "annal:group_ref": "_group/Recording_r",
+  "annal:type_id": "_field",
+  "annal:placeholder": "(discography of performer)",
+  "annal:property_uri": "coll:recorded_repeat",
+  "annal:field_ref_type": "",
+  "annal:field_entity_type": "crm:E39_Actor",
+  "@id": "./",
+  "annal:repeat_label_delete": "Remove recording",
+  "annal:field_ref_restriction": "",
+  "annal:field_placement": "small:0,12",
+  "annal:repeat_label_add": "Add recording",
+  "annal:default_value": "",
+  "annal:field_value_type": "annal:Field_group",
+  "annal:field_value_mode": "Enum_value_mode/Value_direct",
+  "annal:field_render_type": "Enum_render_type/RepeatGroupRow",
+  "annal:field_ref_field": "",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Recording_r",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:type": "annal:Field"
+}

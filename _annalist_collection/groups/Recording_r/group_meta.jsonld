@@ -1,0 +1,24 @@
+{
+  "rdfs:label": "Recordings",
+  "rdfs:comment": "Recordings",
+  "annal:add_field": true,
+  "annal:type_id": "_group",
+  "annal:record_type": "crm:E39_Actor",
+  "annal:uri": "annal:group/_initial_values",
+  "annal:group_fields": [
+    {
+      "annal:property_uri": "coll:recorded",
+      "annal:field_placement": "small:0,12",
+      "annal:field_id": "_field/Recording"
+    }
+  ],
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Recording_r",
+  "@id": "./",
+  "@type": [
+    "annal:Field_group"
+  ],
+  "annal:type": "annal:Field_group"
+}

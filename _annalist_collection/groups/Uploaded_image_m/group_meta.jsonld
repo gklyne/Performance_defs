@@ -6,14 +6,17 @@
   "annal:group_fields": [
     {
       "annal:property_uri": "",
-      "annal:field_placement": "small:0,12;medium:0,6",
-      "annal:field_id": "Entity_id"
+      "annal:field_placement": "small:0,4",
+      "annal:field_id": "_field/Entity_id"
     },
     {
       "annal:property_uri": "",
-      "annal:field_placement": "small:0,12;medium:6,6",
-      "annal:field_id": "Entity_label"
+      "annal:field_placement": "small:4,8",
+      "annal:field_id": "_field/Entity_label"
     }
+  ],
+  "@context": [
+    "../../coll_context.jsonld"
   ],
   "annal:id": "Uploaded_image_m",
   "@id": "./",

@@ -8,7 +8,7 @@
     {
       "annal:property_uri": "",
       "annal:field_placement": "small:0,12;medium:6,6",
-      "annal:field_id": "_field/Entity_type"
+      "annal:field_id": "_field/Place_within"
     },
     {
       "annal:property_uri": "",
@@ -23,23 +23,23 @@
     {
       "annal:property_uri": "",
       "annal:field_placement": "small:0,12",
-      "annal:field_id": "_field/See_also_r"
+      "annal:field_id": "_field/Place_contains_r"
     },
     {
-      "annal:property_uri": null,
-      "annal:field_placement": null,
-      "annal:field_id": null
+      "annal:property_uri": "",
+      "annal:field_placement": "small:0,12",
+      "annal:field_id": "_field/See_also_r"
     }
   ],
   "rdfs:label": "Place",
-  "rdfs:comment": "Place or location, typically used for location of activity.",
-  "annal:open_view": true,
+  "rdfs:comment": "Place or location, typically used for location of activity.\r\n\r\nSee Erlangen [E53_Place](http://erlangen-crm.org/docs/ecrm/current/index.html#anchor696186594),  [P89 falls within](http://erlangen-crm.org/docs/ecrm/current/index.html#anchor1916688903) and [P89i_contains](http://erlangen-crm.org/docs/ecrm/current/index.html#anchor808860381).\r\n\r\n",
+  "annal:id": "Place",
   "annal:type_id": "_view",
   "annal:record_type": "crm:E53_Place",
   "@context": [
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Place",
+  "annal:open_view": true,
   "@id": "./",
   "@type": [
     "annal:View"
