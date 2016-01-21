@@ -1,0 +1,20 @@
+{
+  "rdfs:label": "Performances collection",
+  "rdfs:comment": "This collection contains data about musical performances, created as part of the [FAST project](../02_about_fast_project).\r\n\r\nIt has been created as an exploration of \"Digital Music Objects\" applied to live performances, the purpose of which is described [here](/annalist/c/Performance_defs/d/Journal/03_Performance_DMO_idea/).\r\n\r\n## Performances:\r\n\r\n<table>\r\n\r\n  <tr>\r\n    <th>\r\n    Performance\r\n    </th>\r\n    <th>\r\n    Performer\r\n    </th>\r\n    <th>\r\n    Venue\r\n    </th>\r\n  </tr>\r\n\r\n  <tr>\r\n    <td>\r\n    <a href=\"/annalist/c/Performance_defs/d/Performance/Carmina_Phil_Langran/\">17 January, 2016</a>\r\n    </td>\r\n    <td>\r\n    <a href=\"/annalist/c/Performance_defs/d/Ensemble/Phil_Langran_band/\">Phil Langran Band</a>\r\n    </td>\r\n    <td>\r\n    <a href=\"/annalist/c/Performance_defs/d/Place/The_Maze_Nottingham/\">The Maze, Nottingham</a>\r\n    </td>\r\n  </tr>\r\n\r\n  <tr>\r\n    <td>\r\n    <a href=\"/annalist/c/Performance_defs/d/Performance/Carmina_Phil_Langran/\">17 January, 2016</a>\r\n    </td>\r\n    <td>\r\n    <a href=\"/annalist/c/Performance_defs/d/Ensemble/Carmina/\">Carmina</a>\r\n    </td>\r\n    <td>\r\n    <a href=\"/annalist/c/Performance_defs/d/Place/The_Maze_Nottingham/\">The Maze, Nottingham</a>\r\n    </td>\r\n  </tr>\r\n\r\n</table>\r\n\r\n\r\n## Other resources\r\n\r\n* [Performers and other people](/annalist/c/Performance_defs/d/Agent/)\r\n* [Instruments and artifacts](/annalist/c/Performance_defs/d/Artifact/)\r\n* [Compositions](/annalist/c/Performance_defs/d/Composition/)\r\n* [Performances and other events](/annalist/c/Performance_defs/d/Event/)\r\n* [Feedback records](/annalist/c/Performance_defs/d/Feedback/)\r\n* [List of journal entries](/annalist/c/Performance_defs/d/Journal/)\r\n* [Venues and other places](/annalist/c/Performance_defs/d/Place/)\r\n* [Recordings](/annalist/c/Performance_defs/d/Recording/)\r\n* [Uploaded audio](/annalist/c/Performance_defs/d/Audio/)\r\n* [Uploaded images](/annalist/c/Performance_defs/d/Uploaded/)\r\n* [Web resources](/annalist/c/Performance_defs/d/Web_resource/)\r\n",
+  "coll:resources": [],
+  "coll:location": "",
+  "annal:type_id": "Journal",
+  "coll:audio_clips": [],
+  "coll:images": [],
+  "@type": [
+    "coll:Journal",
+    "annal:EntityData"
+  ],
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "04_Performances_front_page",
+  "@id": "./",
+  "coll:date": "2016-01-21",
+  "annal:type": "coll:Journal"
+}

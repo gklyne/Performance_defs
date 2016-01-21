@@ -1,12 +1,12 @@
 {
   "annal:display_type": "Enum_list_type/List",
-  "rdfs:label": "List of performance events",
-  "rdfs:comment": "List of performance events",
+  "rdfs:label": "List of construction events",
+  "rdfs:comment": "List of construction events",
   "annal:id": "Productions",
-  "annal:default_type": "_type/Construction",
+  "annal:default_type": "_type/Construction_event",
   "annal:type_id": "_list",
-  "annal:list_entity_selector": "\"frbroo:Performance\" in [@type]",
-  "annal:record_type": "frbroo:F31_Performance",
+  "annal:list_entity_selector": "\" crm:E12_Production \" in [@type]",
+  "annal:record_type": " crm:E12_Production ",
   "annal:list_fields": [
     {
       "annal:field_placement": "small:0,3",
@@ -20,7 +20,7 @@
   "@context": [
     "../../coll_context.jsonld"
   ],
-  "annal:default_view": "_view/Event",
+  "annal:default_view": "_view/Construction",
   "@id": "./",
   "@type": [
     "annal:List"

@@ -38,13 +38,13 @@
   ],
   "rdfs:label": "Performed work or composition",
   "rdfs:comment": "View of a performed work of composition",
-  "annal:open_view": true,
+  "annal:id": "Performed_work",
   "annal:type_id": "_view",
-  "annal:record_type": "frbroo:F25_Performance_Plan",
+  "annal:record_type": "frbroo:F20_Performance_Work",
   "@context": [
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Performed_work",
+  "annal:open_view": true,
   "@id": "./",
   "@type": [
     "annal:View"
