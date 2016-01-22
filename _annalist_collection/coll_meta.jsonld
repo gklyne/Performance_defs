@@ -5,6 +5,9 @@
   "annal:type_id": "_coll",
   "annal:comment": "Performance DMO definitions, edited by hand - 2016-01-04",
   "annal:default_list": "Performances",
+  "annal:default_view_id": "Journal_note_view",
+  "annal:default_view_type": "Journal",
+  "annal:default_view_entity": "04_Performances_front_page",
   "@context": [
     "coll_context.jsonld"
   ],

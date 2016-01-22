@@ -1,6 +1,6 @@
 {
-  "rdfs:label": "Socks blown off",
-  "rdfs:comment": "Best performance ever seen",
+  "rdfs:label": "Socks blown off (sample record)",
+  "rdfs:comment": "Best performance ever seen\r\n\r\n(sample feedback record)",
   "annal:type_id": "Feedback",
   "coll:moderated": false,
   "coll:rating": "5",

@@ -11,7 +11,7 @@
   "@context": [
     "../../coll_context.jsonld"
   ],
-  "mo:records": "Performance/Carmina_Love_like_Angels",
+  "mo:records": "Performance/Carmina_Love_Like_Angels",
   "annal:id": "Carmina_Love_like_Angels",
   "@id": "./",
   "@type": [
