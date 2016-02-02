@@ -1,11 +1,11 @@
 {
-  "rdfs:label": "List of uploaded audio",
-  "rdfs:comment": "List of uploaded audio clips",
+  "rdfs:label": "List of linked audio",
+  "rdfs:comment": "List of linked audio clips",
   "annal:default_view": "Default_view",
-  "annal:default_type": "Uploaded_audio",
-  "annal:record_type": "coll:Uploaded_audio",
+  "annal:default_type": "Linked_audio",
+  "annal:record_type": "coll:Linked_audio",
   "annal:type_id": "_list",
-  "annal:list_entity_selector": "\"coll:Uploaded_audio\" in [@type]",
+  "annal:list_entity_selector": "\"coll:Linked_audio\" in [@type]",
   "annal:display_type": "List",
   "annal:list_fields": [
     {
@@ -17,7 +17,7 @@
       "annal:field_id": "Entity_label"
     }
   ],
-  "annal:id": "Uploaded_audio",
+  "annal:id": "Linked_audio",
   "@id": "./",
   "@type": [
     "annal:List"

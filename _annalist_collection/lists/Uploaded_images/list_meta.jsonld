@@ -3,10 +3,10 @@
   "rdfs:label": "List of uploaded images",
   "rdfs:comment": "List of uploaded images",
   "annal:id": "Uploaded_images",
-  "annal:default_type": "Image",
+  "annal:default_type": "Uploaded_image",
   "annal:type_id": "_list",
-  "annal:list_entity_selector": "\"coll:Image\" in [@type]",
-  "annal:record_type": "coll:Image",
+  "annal:list_entity_selector": "\"coll:Uploaded_image\" in [@type]",
+  "annal:record_type": "coll:Uploaded_image",
   "annal:list_fields": [
     {
       "annal:field_placement": "small:0,3",

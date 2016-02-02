@@ -56,15 +56,15 @@
       "annal:field_id": "_field/Uploaded_image_r"
     }
   ],
-  "rdfs:label": "Performance",
-  "rdfs:comment": "Display/edit details of a performance activity",
-  "annal:id": "Performance",
+  "rdfs:label": "Concert",
+  "rdfs:comment": "Display/edit details of a public performance / concert",
+  "annal:open_view": true,
   "annal:type_id": "_view",
-  "annal:record_type": "frbroo:F31_Performance",
+  "annal:record_type": "coll:Concert",
   "@context": [
     "../../coll_context.jsonld"
   ],
-  "annal:open_view": true,
+  "annal:id": "Concert",
   "@id": "./",
   "@type": [
     "annal:View"
