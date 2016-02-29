@@ -2,7 +2,7 @@
   "rdfs:label": "Linked image fields",
   "rdfs:comment": "Reference to linkeded audio fields",
   "annal:type_id": "_group",
-  "annal:record_type": "coll:Audio",
+  "annal:record_type": "coll:Linked_image",
   "annal:group_fields": [
     {
       "annal:property_uri": "",

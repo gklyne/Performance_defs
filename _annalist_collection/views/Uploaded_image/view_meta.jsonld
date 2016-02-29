@@ -30,7 +30,7 @@
   "rdfs:comment": "Uploaded image view",
   "annal:open_view": true,
   "annal:type_id": "_view",
-  "annal:record_type": "coll:image",
+  "annal:record_type": "coll:uploaded_image",
   "annal:id": "Uploaded_image",
   "@id": "./",
   "@type": [
