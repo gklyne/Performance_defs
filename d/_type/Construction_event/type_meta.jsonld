@@ -1,29 +1,32 @@
 {
-  "rdfs:label": "Construction event",
-  "rdfs:comment": "An event which leads the the creation of some entity.\r\n\r\nSee also: [Erlangen E12_Production](http://erlangen-crm.org/docs/efrbroo/latest/classes/E12Production___1534564122.html)\r\n\r\n@@NOTE: CRM doesn't provide an event type specifically for creating physical objects, so the type of a construction event formally subsumes events that create conceptual objects (e.g., composition events).",
-  "annal:field_aliases": [],
-  "annal:type_id": "_type",
-  "annal:supertype_uris": [
-    {
-      "annal:supertype_uri": "prov:Activity"
-    },
-    {
-      "annal:supertype_uri": "crm:E7_Activity"
-    },
-    {
-      "annal:supertype_uri": "crm:E5_Event"
-    }
-  ],
-  "annal:uri": "crm:E12_Production",
-  "annal:type_list": "_list/Events",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Construction_event",
-  "@id": "./",
+  "@id": "_type/Construction_event",
   "@type": [
     "annal:Type"
   ],
+  "annal:field_aliases": [],
+  "annal:id": "Construction_event",
+  "annal:supertype_uri": [
+    {
+      "@id": "prov:Activity"
+    },
+    {
+      "@id": "crm:E7_Activity"
+    },
+    {
+      "@id": "crm:E5_Event"
+    }
+  ],
   "annal:type": "annal:Type",
-  "annal:type_view": "_view/Construction"
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Events",
+  "annal:type_view": "_view/Construction",
+  "annal:uri": "crm:E12_Production",
+  "rdfs:comment": "An event which leads the the creation of some entity.\r\n\r\nSee also: [Erlangen E12_Production](http://erlangen-crm.org/docs/efrbroo/latest/classes/E12Production___1534564122.html)\r\n\r\n@@NOTE: CRM doesn't provide an event type specifically for creating physical objects, so the type of a construction event formally subsumes events that create conceptual objects (e.g., composition events).",
+  "rdfs:label": "Construction event"
 }

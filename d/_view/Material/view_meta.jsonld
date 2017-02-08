@@ -1,38 +1,41 @@
 {
-  "annal:view_fields": [
-    {
-      "annal:property_uri": "",
-      "annal:field_placement": "small:0,12;medium:0,6",
-      "annal:field_id": "_field/Entity_id"
-    },
-    {
-      "annal:property_uri": "",
-      "annal:field_placement": "small:0,12",
-      "annal:field_id": "_field/Entity_label"
-    },
-    {
-      "annal:property_uri": "",
-      "annal:field_placement": "small:0,12",
-      "annal:field_id": "_field/Entity_comment"
-    },
-    {
-      "annal:property_uri": "",
-      "annal:field_placement": "small:0,12",
-      "annal:field_id": "_field/See_also_r"
-    }
-  ],
-  "rdfs:label": "Material",
-  "rdfs:comment": "View of a material",
-  "annal:open_view": true,
-  "annal:type_id": "_view",
-  "annal:record_type": "crm:E57_Material",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Material",
-  "@id": "./",
+  "@id": "_view/Material",
   "@type": [
     "annal:View"
   ],
-  "annal:type": "annal:View"
+  "annal:id": "Material",
+  "annal:open_view": true,
+  "annal:record_type": "crm:E57_Material",
+  "annal:type": "annal:View",
+  "annal:type_id": "_view",
+  "annal:view_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,12;medium:0,6",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/Entity_label",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/Entity_comment",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/See_also_r",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": ""
+    }
+  ],
+  "rdfs:comment": "View of a material",
+  "rdfs:label": "Material"
 }

@@ -1,25 +1,31 @@
 {
-  "rdfs:label": "Event",
-  "rdfs:comment": "Reference to event; display id and label",
-  "annal:group_ref": "Event_m",
-  "annal:type_id": "_field",
-  "annal:placeholder": "(select Event)",
-  "annal:property_uri": "crm:P12i_was_present_at",
-  "annal:field_ref_type": "Event",
-  "annal:field_entity_type": "",
-  "@id": "./",
-  "annal:repeat_label_delete": "",
-  "annal:field_ref_restriction": "",
-  "annal:field_placement": "small:0,12;medium:0,6",
-  "annal:repeat_label_add": "",
-  "annal:default_value": "",
-  "annal:field_value_type": "annal:Text",
-  "annal:field_value_mode": "Value_entity",
-  "annal:field_render_type": "RefMultifield",
-  "annal:field_ref_field": "",
-  "annal:id": "Event_m",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/Event_m",
   "@type": [
     "annal:Field"
   ],
-  "annal:type": "annal:Field"
+  "annal:default_value": "",
+  "annal:field_entity_type": "",
+  "annal:field_placement": "small:0,12;medium:0,6",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "Event",
+  "annal:field_render_type": "_enum_render_type/RefMultifield",
+  "annal:field_value_mode": "_enum_value_mode/Value_entity",
+  "annal:field_value_type": "annal:Text",
+  "annal:group_ref": "Event_m",
+  "annal:id": "Event_m",
+  "annal:placeholder": "(select Event)",
+  "annal:property_uri": "crm:P12i_was_present_at",
+  "annal:repeat_label_add": "",
+  "annal:repeat_label_delete": "",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "Reference to event; display id and label",
+  "rdfs:label": "Event"
 }

@@ -1,15 +1,21 @@
 {
-  "rdfs:label": "Role",
-  "rdfs:comment": "Role of person in activity",
-  "annal:field_aliases": [],
-  "annal:type_id": "_type",
-  "annal:uri": "prov:Role",
-  "annal:type_list": "Roles",
-  "annal:id": "Role",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Role",
   "@type": [
     "annal:Type"
   ],
+  "annal:field_aliases": [],
+  "annal:id": "Role",
   "annal:type": "annal:Type",
-  "annal:type_view": "Role"
+  "annal:type_id": "_type",
+  "annal:type_list": "Roles",
+  "annal:type_view": "Role",
+  "annal:uri": "prov:Role",
+  "rdfs:comment": "Role of person in activity",
+  "rdfs:label": "Role"
 }

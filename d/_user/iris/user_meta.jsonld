@@ -1,16 +1,22 @@
 {
-  "rdfs:label": "Iris Garrelfs",
-  "rdfs:comment": "User iris",
-  "annal:user_uri": "mailto:iris@irisgarrelfs.com",
-  "annal:type_id": "_user",
-  "annal:user_permissions": [
-    "VIEW",
-    "CONFIG"
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
-  "annal:id": "iris",
-  "@id": "./",
+  "@id": "_user/iris",
   "@type": [
     "annal:User"
   ],
-  "annal:type": "annal:User"
+  "annal:id": "iris",
+  "annal:type": "annal:User",
+  "annal:type_id": "_user",
+  "annal:user_permission": [
+    "VIEW",
+    "CONFIG"
+  ],
+  "annal:user_uri": "mailto:iris@irisgarrelfs.com",
+  "rdfs:comment": "User iris",
+  "rdfs:label": "Iris Garrelfs"
 }

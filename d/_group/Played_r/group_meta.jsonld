@@ -1,19 +1,25 @@
 {
-  "rdfs:label": "Work performed",
-  "rdfs:comment": "Reference to work performed",
-  "annal:type_id": "_group",
-  "annal:record_type": "frbroo:R25F_performed",
-  "annal:group_fields": [
+  "@context": [
     {
-      "annal:property_uri": "",
-      "annal:field_placement": "",
-      "annal:field_id": "_field/Played"
-    }
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
-  "annal:id": "Played_r",
-  "@id": "./",
+  "@id": "_group/Played_r",
   "@type": [
     "annal:Field_group"
   ],
-  "annal:type": "annal:Field_group"
+  "annal:group_fields": [
+    {
+      "annal:field_id": "_field/Played",
+      "annal:field_placement": "",
+      "annal:property_uri": ""
+    }
+  ],
+  "annal:id": "Played_r",
+  "annal:record_type": "frbroo:R25F_performed",
+  "annal:type": "annal:Field_group",
+  "annal:type_id": "_group",
+  "rdfs:comment": "Reference to work performed",
+  "rdfs:label": "Work performed"
 }

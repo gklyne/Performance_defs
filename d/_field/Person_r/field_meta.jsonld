@@ -1,28 +1,31 @@
 {
-  "rdfs:label": "People",
-  "rdfs:comment": "People involved in an event",
-  "annal:group_ref": "_group/Person_Role_g",
-  "annal:type_id": "_field",
-  "annal:placeholder": "",
-  "annal:property_uri": "prov:qualifiedAssociation",
-  "annal:field_ref_type": "",
-  "annal:field_entity_type": "",
-  "@id": "./",
-  "annal:repeat_label_delete": "Remove person",
-  "annal:field_ref_restriction": "",
-  "annal:field_placement": "small:0,12",
-  "annal:repeat_label_add": "Add person",
-  "annal:default_value": "",
-  "annal:field_value_type": "annal:Field_group",
-  "annal:field_value_mode": "Enum_value_mode/Value_direct",
-  "annal:field_render_type": "Enum_render_type/RepeatGroupRow",
-  "annal:field_ref_field": "",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Person_r",
+  "@id": "_field/Person_r",
   "@type": [
     "annal:Field"
   ],
-  "annal:type": "annal:Field"
+  "annal:default_value": "",
+  "annal:field_entity_type": "",
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "_enum_render_type/Group_Seq_Row",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "annal:Field_group",
+  "annal:group_ref": "_group/Person_Role_g",
+  "annal:id": "Person_r",
+  "annal:placeholder": "",
+  "annal:property_uri": "prov:qualifiedAssociation",
+  "annal:repeat_label_add": "Add person",
+  "annal:repeat_label_delete": "Remove person",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "People involved in an event",
+  "rdfs:label": "People"
 }

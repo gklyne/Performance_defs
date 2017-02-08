@@ -1,38 +1,41 @@
 {
-  "rdfs:label": "A constructed physical entity",
-  "rdfs:comment": "An artifact, such as a musical instrument or some other object.\r\n\r\nAn artifact is a kind of entity.\r\n",
-  "annal:field_aliases": [],
-  "annal:type_id": "_type",
-  "annal:supertype_uris": [
-    {
-      "annal:supertype_uri": "prov:Entity"
-    },
-    {
-      "annal:supertype_uri": "crm:E77_Persistent_Item"
-    },
-    {
-      "annal:supertype_uri": "crm:E70_Thing"
-    },
-    {
-      "annal:supertype_uri": "crm:E71_Man-Made_Thing"
-    },
-    {
-      "annal:supertype_uri": "crm:E18_Physical_Thing"
-    },
-    {
-      "annal:supertype_uri": "frbroo:F7_Object"
-    }
-  ],
-  "annal:uri": "crm:E24_Physical_Man-Made_Thing",
-  "annal:type_list": "_list/Artifacts",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Artifact",
-  "@id": "./",
+  "@id": "_type/Artifact",
   "@type": [
     "annal:Type"
   ],
+  "annal:field_aliases": [],
+  "annal:id": "Artifact",
+  "annal:supertype_uri": [
+    {
+      "@id": "prov:Entity"
+    },
+    {
+      "@id": "crm:E77_Persistent_Item"
+    },
+    {
+      "@id": "crm:E70_Thing"
+    },
+    {
+      "@id": "crm:E71_Man-Made_Thing"
+    },
+    {
+      "@id": "crm:E18_Physical_Thing"
+    },
+    {
+      "@id": "frbroo:F7_Object"
+    }
+  ],
   "annal:type": "annal:Type",
-  "annal:type_view": "_view/Artifact"
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Artifacts",
+  "annal:type_view": "_view/Artifact",
+  "annal:uri": "crm:E24_Physical_Man-Made_Thing",
+  "rdfs:comment": "An artifact, such as a musical instrument or some other object.\r\n\r\nAn artifact is a kind of entity.\r\n",
+  "rdfs:label": "A constructed physical entity"
 }

@@ -1,9 +1,18 @@
 {
-  "rdfs:label": "Graham Klyne",
-  "rdfs:comment": "User gklyne: permissions for Graham Klyne in collection Carolan_Guitar",
-  "annal:user_uri": "mailto:graham.klyne@oerc.ox.ac.uk",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_user/gklyne",
+  "@type": [
+    "annal:User"
+  ],
+  "annal:id": "gklyne",
+  "annal:type": "annal:User",
   "annal:type_id": "_user",
-  "annal:user_permissions": [
+  "annal:user_permission": [
     "VIEW",
     "CREATE",
     "UPDATE",
@@ -11,10 +20,7 @@
     "CONFIG",
     "ADMIN"
   ],
-  "annal:id": "gklyne",
-  "@id": "./",
-  "@type": [
-    "annal:User"
-  ],
-  "annal:type": "annal:User"
+  "annal:user_uri": "mailto:graham.klyne@oerc.ox.ac.uk",
+  "rdfs:comment": "User gklyne: permissions for Graham Klyne in collection Carolan_Guitar",
+  "rdfs:label": "Graham Klyne"
 }

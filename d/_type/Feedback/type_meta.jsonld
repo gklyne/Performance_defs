@@ -1,19 +1,22 @@
 {
-  "rdfs:label": "Feedback record",
-  "rdfs:comment": "This record type is used to record feedback about a performance.",
-  "annal:field_aliases": [],
-  "annal:type_id": "_type",
-  "annal:supertype_uris": [],
-  "annal:uri": "coll:Feedback",
-  "annal:type_list": "_list/Feedback",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Feedback",
-  "@id": "./",
+  "@id": "_type/Feedback",
   "@type": [
     "annal:Type"
   ],
+  "annal:field_aliases": [],
+  "annal:id": "Feedback",
+  "annal:supertype_uri": [],
   "annal:type": "annal:Type",
-  "annal:type_view": "_view/Feedback"
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Feedback",
+  "annal:type_view": "_view/Feedback",
+  "annal:uri": "coll:Feedback",
+  "rdfs:comment": "This record type is used to record feedback about a performance.",
+  "rdfs:label": "Feedback record"
 }

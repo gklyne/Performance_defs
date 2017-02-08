@@ -1,19 +1,25 @@
 {
-  "rdfs:label": "Linked audio",
-  "rdfs:comment": "Reference to linked audio",
-  "annal:type_id": "_group",
-  "annal:record_type": "coll:Linked_audio",
-  "annal:group_fields": [
+  "@context": [
     {
-      "annal:property_uri": "",
-      "annal:field_placement": "small:0,12",
-      "annal:field_id": "Linked_audio_m"
-    }
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
-  "annal:id": "Linked_audio_r",
-  "@id": "./",
+  "@id": "_group/Linked_audio_r",
   "@type": [
     "annal:Field_group"
   ],
-  "annal:type": "annal:Field_group"
+  "annal:group_fields": [
+    {
+      "annal:field_id": "Linked_audio_m",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": ""
+    }
+  ],
+  "annal:id": "Linked_audio_r",
+  "annal:record_type": "coll:Linked_audio",
+  "annal:type": "annal:Field_group",
+  "annal:type_id": "_group",
+  "rdfs:comment": "Reference to linked audio",
+  "rdfs:label": "Linked audio"
 }

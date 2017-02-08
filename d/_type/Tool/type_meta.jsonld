@@ -1,35 +1,38 @@
 {
-  "rdfs:label": "A tool",
-  "rdfs:comment": "A tool used in a construction or design activity.\r\n\r\n@@TODO: the modelling here needs some rethinking, as software is also considered a tool, hence not a crm:E24_Physical_Man-Made_Thing",
-  "annal:field_aliases": [],
-  "annal:type_id": "_type",
-  "annal:supertype_uris": [
-    {
-      "annal:supertype_uri": "prov:Entity"
-    },
-    {
-      "annal:supertype_uri": "crm:E77_Persistent_Item"
-    },
-    {
-      "annal:supertype_uri": "crm:E70_Thing"
-    },
-    {
-      "annal:supertype_uri": "crm:E71_Man-Made_Thing"
-    },
-    {
-      "annal:supertype_uri": "crm:E24_Physical_Man-Made_Thing"
-    }
-  ],
-  "annal:uri": "crm:E22_Man-Made_Object",
-  "annal:type_list": "_list/Artifacts",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Tool",
-  "@id": "./",
+  "@id": "_type/Tool",
   "@type": [
     "annal:Type"
   ],
+  "annal:field_aliases": [],
+  "annal:id": "Tool",
+  "annal:supertype_uri": [
+    {
+      "@id": "prov:Entity"
+    },
+    {
+      "@id": "crm:E77_Persistent_Item"
+    },
+    {
+      "@id": "crm:E70_Thing"
+    },
+    {
+      "@id": "crm:E71_Man-Made_Thing"
+    },
+    {
+      "@id": "crm:E24_Physical_Man-Made_Thing"
+    }
+  ],
   "annal:type": "annal:Type",
-  "annal:type_view": "_view/Artifact"
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Artifacts",
+  "annal:type_view": "_view/Artifact",
+  "annal:uri": "crm:E22_Man-Made_Object",
+  "rdfs:comment": "A tool used in a construction or design activity.\r\n\r\n@@TODO: the modelling here needs some rethinking, as software is also considered a tool, hence not a crm:E24_Physical_Man-Made_Thing",
+  "rdfs:label": "A tool"
 }

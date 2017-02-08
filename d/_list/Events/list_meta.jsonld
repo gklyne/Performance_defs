@@ -1,30 +1,36 @@
 {
-  "annal:display_type": "Enum_list_type/List",
-  "rdfs:label": "List of events",
-  "rdfs:comment": "List of events and activities",
-  "annal:id": "Events",
-  "annal:default_type": "_type/Event",
-  "annal:type_id": "_list",
-  "annal:list_entity_selector": "\"prov:Activity\" in [@type]",
-  "annal:record_type": "prov:Event",
-  "annal:list_fields": [
+  "@context": [
     {
-      "annal:field_placement": "small:0,12;medium:0,3",
-      "annal:field_id": "_field/Entity_id"
+      "@base": "../../"
     },
-    {
-      "annal:field_placement": "small:0,12;medium:3,3",
-      "annal:field_id": "_field/Entity_type"
-    },
-    {
-      "annal:field_placement": "small:0,12;medium:6,6",
-      "annal:field_id": "_field/Entity_label"
-    }
+    "../../coll_context.jsonld"
   ],
-  "annal:default_view": "_view/Event",
-  "@id": "./",
+  "@id": "_list/Events",
   "@type": [
     "annal:List"
   ],
-  "annal:type": "annal:List"
+  "annal:default_type": "_type/Event",
+  "annal:default_view": "_view/Event",
+  "annal:display_type": "_enum_list_type/List",
+  "annal:id": "Events",
+  "annal:list_entity_selector": "\"prov:Activity\" in [@type]",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,12;medium:0,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_type",
+      "annal:field_placement": "small:0,12;medium:3,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_label",
+      "annal:field_placement": "small:0,12;medium:6,6"
+    }
+  ],
+  "annal:record_type": "prov:Event",
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "rdfs:comment": "List of events and activities",
+  "rdfs:label": "List of events"
 }

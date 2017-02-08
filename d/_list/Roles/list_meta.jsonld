@@ -1,26 +1,32 @@
 {
-  "rdfs:label": "List of roles",
-  "rdfs:comment": "List of roles that may be performed by people or agents in events or activities.",
-  "annal:default_view": "Role",
-  "annal:default_type": "Role",
-  "annal:record_type": "prov:Role",
-  "annal:type_id": "_list",
-  "annal:list_entity_selector": "\"prov:Role\" in [@type]",
-  "annal:display_type": "List",
-  "annal:list_fields": [
+  "@context": [
     {
-      "annal:field_placement": "small:0,3",
-      "annal:field_id": "Entity_id"
+      "@base": "../../"
     },
-    {
-      "annal:field_placement": "small:3,9",
-      "annal:field_id": "Entity_label"
-    }
+    "../../coll_context.jsonld"
   ],
-  "annal:id": "Roles",
-  "@id": "./",
+  "@id": "_list/Roles",
   "@type": [
     "annal:List"
   ],
-  "annal:type": "annal:List"
+  "annal:default_type": "Role",
+  "annal:default_view": "Role",
+  "annal:display_type": "_enum_list_type/List",
+  "annal:id": "Roles",
+  "annal:list_entity_selector": "\"prov:Role\" in [@type]",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "Entity_label",
+      "annal:field_placement": "small:3,9"
+    }
+  ],
+  "annal:record_type": "prov:Role",
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "rdfs:comment": "List of roles that may be performed by people or agents in events or activities.",
+  "rdfs:label": "List of roles"
 }

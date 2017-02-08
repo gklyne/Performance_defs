@@ -1,19 +1,25 @@
 {
-  "rdfs:label": "Composer(s)",
-  "rdfs:comment": "Composer",
-  "annal:type_id": "_group",
-  "annal:record_type": "",
-  "annal:group_fields": [
+  "@context": [
     {
-      "annal:property_uri": "",
-      "annal:field_placement": "small:0,12",
-      "annal:field_id": "_field/Composer"
-    }
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
-  "annal:id": "Composer_r",
-  "@id": "./",
+  "@id": "_group/Composer_r",
   "@type": [
     "annal:Field_group"
   ],
-  "annal:type": "annal:Field_group"
+  "annal:group_fields": [
+    {
+      "annal:field_id": "_field/Composer",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": ""
+    }
+  ],
+  "annal:id": "Composer_r",
+  "annal:record_type": "",
+  "annal:type": "annal:Field_group",
+  "annal:type_id": "_group",
+  "rdfs:comment": "Composer",
+  "rdfs:label": "Composer(s)"
 }

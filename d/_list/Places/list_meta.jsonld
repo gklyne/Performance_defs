@@ -1,29 +1,32 @@
 {
-  "annal:display_type": "Enum_list_type/List",
-  "rdfs:label": "List of places",
-  "rdfs:comment": "List of places",
-  "annal:id": "Places",
-  "annal:default_type": "_type/Place",
-  "annal:type_id": "_list",
-  "annal:list_entity_selector": "\"crm:E53_Place\" in [@type]",
-  "annal:record_type": "crm:E53_Place",
-  "annal:list_fields": [
-    {
-      "annal:field_placement": "small:0,3",
-      "annal:field_id": "_field/Entity_id"
-    },
-    {
-      "annal:field_placement": "small:3,9",
-      "annal:field_id": "_field/Entity_label"
-    }
-  ],
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:default_view": "_view/Place",
-  "@id": "./",
+  "@id": "_list/Places",
   "@type": [
     "annal:List"
   ],
-  "annal:type": "annal:List"
+  "annal:default_type": "_type/Place",
+  "annal:default_view": "_view/Place",
+  "annal:display_type": "_enum_list_type/List",
+  "annal:id": "Places",
+  "annal:list_entity_selector": "\"crm:E53_Place\" in [@type]",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_label",
+      "annal:field_placement": "small:3,9"
+    }
+  ],
+  "annal:record_type": "crm:E53_Place",
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "rdfs:comment": "List of places",
+  "rdfs:label": "List of places"
 }

@@ -1,33 +1,36 @@
 {
-  "rdfs:label": "List of Recordings",
-  "rdfs:comment": "List of Recordings",
-  "annal:default_view": "_view/Recording",
-  "annal:default_type": "_type/Recording",
-  "annal:record_type": "frbroo:F26_Recording",
-  "annal:type_id": "_list",
-  "annal:list_entity_selector": "'frbroo:F26_Recording' in [@type]",
-  "annal:display_type": "Enum_list_type/List",
-  "annal:list_fields": [
-    {
-      "annal:field_placement": "small:0,3",
-      "annal:field_id": "_field/Entity_id"
-    },
-    {
-      "annal:field_placement": "small:3,3",
-      "annal:field_id": "_field/Entity_type"
-    },
-    {
-      "annal:field_placement": "small:6,6",
-      "annal:field_id": "_field/Entity_label"
-    }
-  ],
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Recording",
-  "@id": "./",
+  "@id": "_list/Recording",
   "@type": [
     "annal:List"
   ],
-  "annal:type": "annal:List"
+  "annal:default_type": "_type/Recording",
+  "annal:default_view": "_view/Recording",
+  "annal:display_type": "_enum_list_type/List",
+  "annal:id": "Recording",
+  "annal:list_entity_selector": "'frbroo:F26_Recording' in [@type]",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_type",
+      "annal:field_placement": "small:3,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_label",
+      "annal:field_placement": "small:6,6"
+    }
+  ],
+  "annal:record_type": "frbroo:F26_Recording",
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "rdfs:comment": "List of Recordings",
+  "rdfs:label": "List of Recordings"
 }

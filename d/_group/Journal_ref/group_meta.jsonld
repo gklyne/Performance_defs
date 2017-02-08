@@ -1,19 +1,25 @@
 {
-  "rdfs:label": "Journal entry reference",
-  "rdfs:comment": "Reference to journal entry",
-  "annal:type_id": "_group",
-  "annal:record_type": "",
-  "annal:group_fields": [
+  "@context": [
     {
-      "annal:property_uri": "annal:member",
-      "annal:field_placement": "small:0,12",
-      "annal:field_id": "_field/Journal_ref"
-    }
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
-  "annal:id": "Journal_ref",
-  "@id": "./",
+  "@id": "_group/Journal_ref",
   "@type": [
     "annal:Field_group"
   ],
-  "annal:type": "annal:Field_group"
+  "annal:group_fields": [
+    {
+      "annal:field_id": "_field/Journal_ref",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": "annal:member"
+    }
+  ],
+  "annal:id": "Journal_ref",
+  "annal:record_type": "",
+  "annal:type": "annal:Field_group",
+  "annal:type_id": "_group",
+  "rdfs:comment": "Reference to journal entry",
+  "rdfs:label": "Journal entry reference"
 }

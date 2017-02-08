@@ -1,24 +1,30 @@
 {
-  "rdfs:label": "Uploaded audio id+label",
-  "rdfs:comment": "Show id and label fields of uploaded audio clip",
-  "annal:type_id": "_group",
-  "annal:record_type": "",
-  "annal:group_fields": [
+  "@context": [
     {
-      "annal:property_uri": "",
-      "annal:field_placement": "small:0,12;medium:0,6",
-      "annal:field_id": "Entity_id"
+      "@base": "../../"
     },
-    {
-      "annal:property_uri": "",
-      "annal:field_placement": "small:0,12;medium:6,6",
-      "annal:field_id": "Entity_label"
-    }
+    "../../coll_context.jsonld"
   ],
-  "annal:id": "Uploaded_audio_m",
-  "@id": "./",
+  "@id": "_group/Uploaded_audio_m",
   "@type": [
     "annal:Field_group"
   ],
-  "annal:type": "annal:Field_group"
+  "annal:group_fields": [
+    {
+      "annal:field_id": "Entity_id",
+      "annal:field_placement": "small:0,12;medium:0,6",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "Entity_label",
+      "annal:field_placement": "small:0,12;medium:6,6",
+      "annal:property_uri": ""
+    }
+  ],
+  "annal:id": "Uploaded_audio_m",
+  "annal:record_type": "",
+  "annal:type": "annal:Field_group",
+  "annal:type_id": "_group",
+  "rdfs:comment": "Show id and label fields of uploaded audio clip",
+  "rdfs:label": "Uploaded audio id+label"
 }

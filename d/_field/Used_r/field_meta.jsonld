@@ -1,28 +1,31 @@
 {
-  "rdfs:label": "Instruments used",
-  "rdfs:comment": "Indicates a list of instruments, artifacts, etc., used by an activity.",
-  "annal:group_ref": "_group/Used_r",
-  "annal:type_id": "_field",
-  "annal:placeholder": "(list of entities used)",
-  "annal:property_uri": "prov:used_r",
-  "annal:field_ref_type": "",
-  "annal:field_entity_type": "",
-  "@id": "./",
-  "annal:repeat_label_delete": "Remove entity used",
-  "annal:field_ref_restriction": "",
-  "annal:field_placement": "small:0,12",
-  "annal:repeat_label_add": "Add entity used",
-  "annal:default_value": "",
-  "annal:field_value_type": "annal:Field_group",
-  "annal:field_value_mode": "Enum_value_mode/Value_direct",
-  "annal:field_render_type": "Enum_render_type/RepeatGroupRow",
-  "annal:field_ref_field": "",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Used_r",
+  "@id": "_field/Used_r",
   "@type": [
     "annal:Field"
   ],
-  "annal:type": "annal:Field"
+  "annal:default_value": "",
+  "annal:field_entity_type": "",
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "_enum_render_type/Group_Seq_Row",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "annal:Field_group",
+  "annal:group_ref": "_group/Used_r",
+  "annal:id": "Used_r",
+  "annal:placeholder": "(list of entities used)",
+  "annal:property_uri": "prov:used_r",
+  "annal:repeat_label_add": "Add entity used",
+  "annal:repeat_label_delete": "Remove entity used",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "Indicates a list of instruments, artifacts, etc., used by an activity.",
+  "rdfs:label": "Instruments used"
 }

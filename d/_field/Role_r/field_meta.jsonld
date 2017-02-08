@@ -1,28 +1,31 @@
 {
-  "rdfs:label": "Roles",
-  "rdfs:comment": "Roles performed across all events (as opposed to role in specific event).",
-  "annal:group_ref": "_group/Role_r",
-  "annal:type_id": "_field",
-  "annal:placeholder": "(Repeat field Role)",
-  "annal:property_uri": "coll:performs_role",
-  "annal:field_ref_type": "",
-  "annal:field_entity_type": "crm:E39_Actor",
-  "@id": "./",
-  "annal:repeat_label_delete": "Remove role",
-  "annal:field_ref_restriction": "",
-  "annal:field_placement": "small:0,12",
-  "annal:repeat_label_add": "Add role",
-  "annal:default_value": "",
-  "annal:field_value_type": "annal:Field_group",
-  "annal:field_value_mode": "Enum_value_mode/Value_direct",
-  "annal:field_render_type": "Enum_render_type/RepeatGroupRow",
-  "annal:field_ref_field": "",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Role_r",
+  "@id": "_field/Role_r",
   "@type": [
     "annal:Field"
   ],
-  "annal:type": "annal:Field"
+  "annal:default_value": "",
+  "annal:field_entity_type": "crm:E39_Actor",
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "_enum_render_type/Group_Seq_Row",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "annal:Field_group",
+  "annal:group_ref": "_group/Role_r",
+  "annal:id": "Role_r",
+  "annal:placeholder": "(Repeat field Role)",
+  "annal:property_uri": "coll:performs_role",
+  "annal:repeat_label_add": "Add role",
+  "annal:repeat_label_delete": "Remove role",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "Roles performed across all events (as opposed to role in specific event).",
+  "rdfs:label": "Roles"
 }

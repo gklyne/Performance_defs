@@ -1,48 +1,51 @@
 {
-  "annal:view_fields": [
-    {
-      "annal:property_uri": "",
-      "annal:field_placement": "small:0,12;medium:0,6",
-      "annal:field_id": "_field/Entity_id"
-    },
-    {
-      "annal:property_uri": "",
-      "annal:field_placement": "small:0,12;medium:6,6",
-      "annal:field_id": "_field/Entity_type"
-    },
-    {
-      "annal:property_uri": "",
-      "annal:field_placement": "small:0,12",
-      "annal:field_id": "_field/Name"
-    },
-    {
-      "annal:property_uri": "",
-      "annal:field_placement": "small:0,12",
-      "annal:field_id": "_field/Entity_comment"
-    },
-    {
-      "annal:property_uri": "",
-      "annal:field_placement": "small:0,12",
-      "annal:field_id": "_field/Role_r"
-    },
-    {
-      "annal:property_uri": "",
-      "annal:field_placement": "small:0,12",
-      "annal:field_id": "_field/See_also_r"
-    }
-  ],
-  "rdfs:label": "Performer",
-  "rdfs:comment": "View of performer",
-  "annal:id": "Performer",
-  "annal:type_id": "_view",
-  "annal:record_type": "crm:E39_Actor",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:open_view": true,
-  "@id": "./",
+  "@id": "_view/Performer",
   "@type": [
     "annal:View"
   ],
-  "annal:type": "annal:View"
+  "annal:id": "Performer",
+  "annal:open_view": true,
+  "annal:record_type": "crm:E39_Actor",
+  "annal:type": "annal:View",
+  "annal:type_id": "_view",
+  "annal:view_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,12;medium:0,6",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/Entity_type",
+      "annal:field_placement": "small:0,12;medium:6,6",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/Name",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/Entity_comment",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/Role_r",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/See_also_r",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": ""
+    }
+  ],
+  "rdfs:comment": "View of performer",
+  "rdfs:label": "Performer"
 }

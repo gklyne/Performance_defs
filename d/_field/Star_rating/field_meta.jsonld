@@ -1,28 +1,31 @@
 {
-  "rdfs:label": "Rating",
-  "rdfs:comment": "Allow feedback to indicate a rating on a scale of 1-5",
-  "annal:group_ref": "",
-  "annal:type_id": "_field",
-  "annal:placeholder": "(rate performance on a scale of 1-5, where 1=poor to 5=the best)",
-  "annal:property_uri": "coll:rating",
-  "annal:field_ref_type": "",
-  "annal:field_entity_type": "",
-  "@id": "./",
-  "annal:repeat_label_delete": "",
-  "annal:field_ref_restriction": "",
-  "annal:field_placement": "small:0,12;medium:6,6",
-  "annal:repeat_label_add": "",
-  "annal:default_value": "",
-  "annal:field_value_type": "annal:Text",
-  "annal:field_value_mode": "Enum_value_mode/Value_direct",
-  "annal:field_render_type": "Enum_render_type/Text",
-  "annal:field_ref_field": "",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Star_rating",
+  "@id": "_field/Star_rating",
   "@type": [
     "annal:Field"
   ],
-  "annal:type": "annal:Field"
+  "annal:default_value": "",
+  "annal:field_entity_type": "",
+  "annal:field_placement": "small:0,12;medium:6,6",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "_enum_render_type/Text",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "annal:Text",
+  "annal:group_ref": "",
+  "annal:id": "Star_rating",
+  "annal:placeholder": "(rate performance on a scale of 1-5, where 1=poor to 5=the best)",
+  "annal:property_uri": "coll:rating",
+  "annal:repeat_label_add": "",
+  "annal:repeat_label_delete": "",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "Allow feedback to indicate a rating on a scale of 1-5",
+  "rdfs:label": "Rating"
 }

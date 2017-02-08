@@ -1,26 +1,32 @@
 {
-  "rdfs:label": "List of linked audio",
-  "rdfs:comment": "List of linked audio clips",
-  "annal:default_view": "Default_view",
-  "annal:default_type": "Linked_audio",
-  "annal:record_type": "coll:Linked_audio",
-  "annal:type_id": "_list",
-  "annal:list_entity_selector": "\"coll:Linked_audio\" in [@type]",
-  "annal:display_type": "List",
-  "annal:list_fields": [
+  "@context": [
     {
-      "annal:field_placement": "small:0,3",
-      "annal:field_id": "Entity_id"
+      "@base": "../../"
     },
-    {
-      "annal:field_placement": "small:3,9",
-      "annal:field_id": "Entity_label"
-    }
+    "../../coll_context.jsonld"
   ],
-  "annal:id": "Linked_audio",
-  "@id": "./",
+  "@id": "_list/Linked_audio",
   "@type": [
     "annal:List"
   ],
-  "annal:type": "annal:List"
+  "annal:default_type": "Linked_audio",
+  "annal:default_view": "Default_view",
+  "annal:display_type": "_enum_list_type/List",
+  "annal:id": "Linked_audio",
+  "annal:list_entity_selector": "\"coll:Linked_audio\" in [@type]",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "Entity_label",
+      "annal:field_placement": "small:3,9"
+    }
+  ],
+  "annal:record_type": "coll:Linked_audio",
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "rdfs:comment": "List of linked audio clips",
+  "rdfs:label": "List of linked audio"
 }

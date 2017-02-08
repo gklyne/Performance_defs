@@ -1,22 +1,25 @@
 {
-  "rdfs:label": "Steven Benford",
-  "rdfs:comment": "",
-  "annal:user_uri": "mailto:steven.benford@gmail.com",
-  "annal:type_id": "_user",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:user_permissions": [
+  "@id": "_user/stevenbenford",
+  "@type": [
+    "annal:User"
+  ],
+  "annal:id": "stevenbenford",
+  "annal:type": "annal:User",
+  "annal:type_id": "_user",
+  "annal:user_permission": [
     "VIEW",
     "CREATE",
     "UPDATE",
     "DELETE",
     "CONFIG"
   ],
-  "annal:id": "stevenbenford",
-  "@id": "./",
-  "@type": [
-    "annal:User"
-  ],
-  "annal:type": "annal:User"
+  "annal:user_uri": "mailto:steven.benford@gmail.com",
+  "rdfs:comment": "",
+  "rdfs:label": "Steven Benford"
 }

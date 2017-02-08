@@ -1,19 +1,22 @@
 {
-  "rdfs:label": "Place or event location",
-  "rdfs:comment": "Location at which some activity took place\r\n\r\nSee also: [crm:E53_Place](http://erlangen-crm.org/docs/ecrm/150218/index.html#anchor1785878506)",
-  "annal:field_aliases": [],
-  "annal:type_id": "_type",
-  "annal:supertype_uris": [],
-  "annal:uri": "crm:E53_Place",
-  "annal:type_list": "_list/Places",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Place",
-  "@id": "./",
+  "@id": "_type/Place",
   "@type": [
     "annal:Type"
   ],
+  "annal:field_aliases": [],
+  "annal:id": "Place",
+  "annal:supertype_uri": [],
   "annal:type": "annal:Type",
-  "annal:type_view": "_view/Place"
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Places",
+  "annal:type_view": "_view/Place",
+  "annal:uri": "crm:E53_Place",
+  "rdfs:comment": "Location at which some activity took place\r\n\r\nSee also: [crm:E53_Place](http://erlangen-crm.org/docs/ecrm/150218/index.html#anchor1785878506)",
+  "rdfs:label": "Place or event location"
 }

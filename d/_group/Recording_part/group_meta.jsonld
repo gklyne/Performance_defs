@@ -1,24 +1,27 @@
 {
-  "rdfs:label": "Part of recording",
-  "rdfs:comment": "Component part of recording",
-  "annal:id": "Recording_part",
-  "annal:type_id": "_group",
-  "annal:record_type": "frbroo:F26_Recording",
-  "annal:uri": "annal:group/_initial_values",
-  "annal:group_fields": [
-    {
-      "annal:property_uri": "@id",
-      "annal:field_placement": "small:0,12",
-      "annal:field_id": "_field/Recording_part"
-    }
-  ],
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:add_field": true,
-  "@id": "./",
+  "@id": "_group/Recording_part",
   "@type": [
     "annal:Field_group"
   ],
-  "annal:type": "annal:Field_group"
+  "annal:add_field": true,
+  "annal:group_fields": [
+    {
+      "annal:field_id": "_field/Recording_part",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": "@id"
+    }
+  ],
+  "annal:id": "Recording_part",
+  "annal:record_type": "frbroo:F26_Recording",
+  "annal:type": "annal:Field_group",
+  "annal:type_id": "_group",
+  "annal:uri": "annal:group/_initial_values",
+  "rdfs:comment": "Component part of recording",
+  "rdfs:label": "Part of recording"
 }

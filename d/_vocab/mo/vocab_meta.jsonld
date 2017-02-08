@@ -1,20 +1,23 @@
 {
-  "rdfs:label": "Music Ontology namespace",
-  "rdfs:comment": "Vocabulary namespace for the Music Ontology.",
-  "rdfs:seeAlso": [
-    {
-      "owl:sameAs": "http://musicontology.com/specification/"
-    }
-  ],
-  "annal:type_id": "_vocab",
-  "annal:uri": "http://purl.org/ontology/mo/",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "mo",
-  "@id": "./",
+  "@id": "_vocab/mo",
   "@type": [
     "annal:Vocabulary"
   ],
-  "annal:type": "annal:Vocabulary"
+  "annal:id": "mo",
+  "annal:type": "annal:Vocabulary",
+  "annal:type_id": "_vocab",
+  "annal:uri": "http://purl.org/ontology/mo/",
+  "rdfs:comment": "Vocabulary namespace for the Music Ontology.",
+  "rdfs:label": "Music Ontology namespace",
+  "rdfs:seeAlso": [
+    {
+      "@id": "http://musicontology.com/specification/"
+    }
+  ]
 }

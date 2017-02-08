@@ -1,19 +1,25 @@
 {
-  "rdfs:label": "Material employed",
-  "rdfs:comment": "Reference to material employed",
-  "annal:type_id": "_group",
-  "annal:record_type": "",
-  "annal:group_fields": [
+  "@context": [
     {
-      "annal:property_uri": "",
-      "annal:field_placement": "small:0,12",
-      "annal:field_id": "Employed"
-    }
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
-  "annal:id": "Employed_r",
-  "@id": "./",
+  "@id": "_group/Employed_r",
   "@type": [
     "annal:Field_group"
   ],
-  "annal:type": "annal:Field_group"
+  "annal:group_fields": [
+    {
+      "annal:field_id": "Employed",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": ""
+    }
+  ],
+  "annal:id": "Employed_r",
+  "annal:record_type": "",
+  "annal:type": "annal:Field_group",
+  "annal:type_id": "_group",
+  "rdfs:comment": "Reference to material employed",
+  "rdfs:label": "Material employed"
 }

@@ -1,15 +1,21 @@
 {
-  "rdfs:label": "Material",
-  "rdfs:comment": "A generic material (e.g. wood, metal) as opposed to specific chunk of such material.\r\n\r\nSee also:\r\n\r\n* crm:P16_used_specific_object\r\n* crm:P126_employed\r\n* crm:P45_consists_of\r\n* crm:E57_Material\r\n* crm:E7_Activity\r\n* crm:E12_Production\r\n",
-  "annal:field_aliases": [],
-  "annal:type_id": "_type",
-  "annal:uri": "crm:E57_Material",
-  "annal:type_list": "Materials",
-  "annal:id": "Material",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Material",
   "@type": [
     "annal:Type"
   ],
+  "annal:field_aliases": [],
+  "annal:id": "Material",
   "annal:type": "annal:Type",
-  "annal:type_view": "Material"
+  "annal:type_id": "_type",
+  "annal:type_list": "Materials",
+  "annal:type_view": "Material",
+  "annal:uri": "crm:E57_Material",
+  "rdfs:comment": "A generic material (e.g. wood, metal) as opposed to specific chunk of such material.\r\n\r\nSee also:\r\n\r\n* crm:P16_used_specific_object\r\n* crm:P126_employed\r\n* crm:P45_consists_of\r\n* crm:E57_Material\r\n* crm:E7_Activity\r\n* crm:E12_Production\r\n",
+  "rdfs:label": "Material"
 }
