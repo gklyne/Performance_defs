@@ -18,14 +18,14 @@
   "annal:field_render_type": "_enum_render_type/CheckBox",
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "annal:Boolean",
-  "annal:group_ref": "",
   "annal:id": "Moderated",
   "annal:placeholder": "(check if comment is OK to publish)",
   "annal:property_uri": "coll:moderated",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
+  "annal:tooltip": "True if comment has passed moderation",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "True if comment has passed moderation",
+  "rdfs:comment": "# Moderation OK?\r\n\r\nTrue if comment has passed moderation",
   "rdfs:label": "Moderation OK?"
 }

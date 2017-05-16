@@ -18,14 +18,14 @@
   "annal:field_render_type": "_enum_render_type/Enum_optional",
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "annal:Slug",
-  "annal:group_ref": "",
   "annal:id": "Ensemble_member",
   "annal:placeholder": "(member of ensemble)",
   "annal:property_uri": "crm:P107_has_current_or_former_member",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
+  "annal:tooltip": "Member of performing ensemble",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "Member of performing ensemble",
+  "rdfs:comment": "# Member\r\n\r\nMember of performing ensemble",
   "rdfs:label": "Member"
 }

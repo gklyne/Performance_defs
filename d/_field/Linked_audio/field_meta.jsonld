@@ -18,14 +18,14 @@
   "annal:field_render_type": "_enum_render_type/RefAudio",
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "annal:Audio",
-  "annal:group_ref": "",
   "annal:id": "Linked_audio",
   "annal:placeholder": "(Enter audio clip URL)",
   "annal:property_uri": "coll:audio_clip",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
+  "annal:tooltip": "Linked audio clip",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "Linked audio clip",
+  "rdfs:comment": "# Linked audio clip\r\n\r\nLinked audio clip",
   "rdfs:label": "Linked audio clip"
 }

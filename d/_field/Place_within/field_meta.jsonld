@@ -18,14 +18,14 @@
   "annal:field_render_type": "_enum_render_type/Enum_optional",
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "crm:E53_Place",
-  "annal:group_ref": "",
   "annal:id": "Place_within",
   "annal:placeholder": "(Select containing place or region)",
   "annal:property_uri": "crm:P89_falls_within",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
+  "annal:tooltip": "Larger region (place) within which the current place is situated.",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "Larger region (place) within which the current place is situated.",
+  "rdfs:comment": "# Falls within\r\n\r\nLarger region (place) within which the current place is situated.",
   "rdfs:label": "Falls within"
 }

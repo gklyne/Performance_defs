@@ -18,14 +18,14 @@
   "annal:field_render_type": "_enum_render_type/Enum_optional",
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "crm:E53_Place",
-  "annal:group_ref": "",
   "annal:id": "Place_contains",
   "annal:placeholder": "(Select contained place)",
   "annal:property_uri": "crm:P89i_contains",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
+  "annal:tooltip": "Place that is a part of the current place.",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "Place that is a part of the current place.",
+  "rdfs:comment": "# Contains\r\n\r\nPlace that is a part of the current place.",
   "rdfs:label": "Contains"
 }

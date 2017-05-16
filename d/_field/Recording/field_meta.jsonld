@@ -18,14 +18,14 @@
   "annal:field_render_type": "_enum_render_type/Enum_optional",
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "frbroo:F26_Recording",
-  "annal:group_ref": "",
   "annal:id": "Recording",
   "annal:placeholder": "(recording by performer)",
   "annal:property_uri": "coll:recorded",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
+  "annal:tooltip": "Recording by performer",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "Recording by performer",
+  "rdfs:comment": "# Recording\r\n\r\nRecording by performer",
   "rdfs:label": "Recording"
 }

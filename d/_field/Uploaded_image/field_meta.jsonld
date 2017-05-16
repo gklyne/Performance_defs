@@ -18,14 +18,14 @@
   "annal:field_render_type": "_enum_render_type/RefImage",
   "annal:field_value_mode": "_enum_value_mode/Value_upload",
   "annal:field_value_type": "annal:Image",
-  "annal:group_ref": "",
   "annal:id": "Uploaded_image",
   "annal:placeholder": "(Select image to upload)",
   "annal:property_uri": "coll:uploaded_image",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
+  "annal:tooltip": "Uploaded image",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "Uploaded image",
+  "rdfs:comment": "# Uploaded image\r\n\r\nUploaded image",
   "rdfs:label": "Uploaded image"
 }

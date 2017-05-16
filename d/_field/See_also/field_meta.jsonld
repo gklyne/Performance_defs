@@ -18,14 +18,14 @@
   "annal:field_render_type": "_enum_render_type/URILink",
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "annal:Identifier",
-  "annal:group_ref": "",
   "annal:id": "See_also",
   "annal:placeholder": "(URL for to further information)",
   "annal:property_uri": "rdfs:seeAlso",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
+  "annal:tooltip": "A link to further information about the artifact",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "A link to further information about the artifact",
+  "rdfs:comment": "# URL\r\n\r\nA link to further information about the artifact",
   "rdfs:label": "URL"
 }

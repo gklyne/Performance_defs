@@ -18,14 +18,14 @@
   "annal:field_render_type": "_enum_render_type/Enum_optional",
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "crm:E57_Material",
-  "annal:group_ref": "",
   "annal:id": "Employed",
   "annal:placeholder": "(select material used)",
   "annal:property_uri": "crm:P126_employed",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
+  "annal:tooltip": "Indicates some generic material used by an activity.",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "Indicates some generic material used by an activity.",
+  "rdfs:comment": "# Employed (Material)\r\n\r\nIndicates some generic material used by an activity.",
   "rdfs:label": "Employed (Material)"
 }

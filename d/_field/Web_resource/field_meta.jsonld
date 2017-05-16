@@ -18,14 +18,14 @@
   "annal:field_render_type": "_enum_render_type/URILink",
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "annal:Identifier",
-  "annal:group_ref": "",
   "annal:id": "Web_resource",
   "annal:placeholder": "(link to web resource)",
   "annal:property_uri": "coll:web_resource",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
+  "annal:tooltip": "Web resource URL (link)",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "Web resource URL (link)",
+  "rdfs:comment": "# Web resource URL\r\n\r\nWeb resource URL (link)",
   "rdfs:label": "Web resource URL"
 }

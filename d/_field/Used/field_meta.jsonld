@@ -18,14 +18,14 @@
   "annal:field_render_type": "_enum_render_type/Enum_optional",
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "annal:Text",
-  "annal:group_ref": "",
   "annal:id": "Used",
   "annal:placeholder": "(select entity used)",
   "annal:property_uri": "prov:used",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
+  "annal:tooltip": "Indicates an entity (artifact or piece of material) used by an activity.\r\n\r\nNOTE: following PROV, this property does not distinguish between specific entities and material typed in the same way as CRM.  A material type input is referred to as a \"piece of ...\" the appropriate material type.  This design decision may reviewed later.",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "Indicates an entity (artifact or piece of material) used by an activity.\r\n\r\nNOTE: following PROV, this property does not distinguish between specific entities and material typed in the same way as CRM.  A material type input is referred to as a \"piece of ...\" the appropriate material type.  This design decision may reviewed later.",
+  "rdfs:comment": "# Used (Entity)\r\n\r\nIndicates an entity (artifact or piece of material) used by an activity.\r\n\r\nNOTE: following PROV, this property does not distinguish between specific entities and material typed in the same way as CRM.  A material type input is referred to as a \"piece of ...\" the appropriate material type.  This design decision may reviewed later.",
   "rdfs:label": "Used (Entity)"
 }

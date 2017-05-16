@@ -18,14 +18,14 @@
   "annal:field_render_type": "_enum_render_type/Enum_optional",
   "annal:field_value_mode": "_enum_value_mode/Value_entity",
   "annal:field_value_type": "prov:Role",
-  "annal:group_ref": "",
   "annal:id": "Role",
   "annal:placeholder": "",
   "annal:property_uri": "prov:hadRole",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
+  "annal:tooltip": "",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "",
+  "rdfs:comment": "# Role\r\n\r\n",
   "rdfs:label": "Role"
 }

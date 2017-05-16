@@ -18,14 +18,14 @@
   "annal:field_render_type": "_enum_render_type/Text",
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "annal:Text",
-  "annal:group_ref": "",
   "annal:id": "Person_name",
   "annal:placeholder": "(name of person)",
   "annal:property_uri": "foaf:name",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
+  "annal:tooltip": "Name of person",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "Name of person",
+  "rdfs:comment": "# Personal name\r\n\r\nName of person",
   "rdfs:label": "Personal name"
 }

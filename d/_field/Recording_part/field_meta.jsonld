@@ -18,14 +18,14 @@
   "annal:field_render_type": "_enum_render_type/Enum_optional",
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "frbroo:F26_Recording",
-  "annal:group_ref": "",
   "annal:id": "Recording_part",
   "annal:placeholder": "(select component recording)",
   "annal:property_uri": "prov:hadMember",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
+  "annal:tooltip": "Reference to another recording that is a constituent part of a recording; e.g. a track of an album.",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "Reference to another recording that is a constituent part of a recording; e.g. a track of an album.",
+  "rdfs:comment": "# Part of recording\r\n\r\nReference to another recording that is a constituent part of a recording; e.g. a track of an album.",
   "rdfs:label": "Part of recording"
 }

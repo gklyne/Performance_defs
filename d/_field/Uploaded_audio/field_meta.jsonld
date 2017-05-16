@@ -18,14 +18,14 @@
   "annal:field_render_type": "_enum_render_type/RefAudio",
   "annal:field_value_mode": "_enum_value_mode/Value_upload",
   "annal:field_value_type": "annal:Audio",
-  "annal:group_ref": "",
   "annal:id": "Uploaded_audio",
   "annal:placeholder": "(Select audio clip to upload)",
   "annal:property_uri": "coll:uploaded_audio",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
+  "annal:tooltip": "Uploaded audio clip",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "Uploaded audio clip",
+  "rdfs:comment": "# Uploaded audio clip\r\n\r\nUploaded audio clip",
   "rdfs:label": "Uploaded audio clip"
 }

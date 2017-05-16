@@ -18,14 +18,14 @@
   "annal:field_render_type": "_enum_render_type/Enum_optional",
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "crm:E53_Place",
-  "annal:group_ref": "",
   "annal:id": "Place",
   "annal:placeholder": "(Location or place of activity)",
   "annal:property_uri": "crm:P7_took_place_at",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
+  "annal:tooltip": "Location at which activity takes place.",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "Location at which activity takes place.",
+  "rdfs:comment": "# Event location\r\n\r\nLocation at which activity takes place.",
   "rdfs:label": "Event location"
 }

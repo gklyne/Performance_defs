@@ -18,14 +18,14 @@
   "annal:field_render_type": "_enum_render_type/Enum_optional",
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "annal:Text",
-  "annal:group_ref": "",
   "annal:id": "Journal_ref",
   "annal:placeholder": "(select journal entry)",
   "annal:property_uri": "pb:refJournal",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
+  "annal:tooltip": "Reference to journal entry",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "Reference to journal entry",
+  "rdfs:comment": "# Journal entry\r\n\r\nReference to journal entry",
   "rdfs:label": "Journal entry"
 }

@@ -18,14 +18,14 @@
   "annal:field_render_type": "_enum_render_type/Enum_optional",
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": " frbroo:F31_Performance ",
-  "annal:group_ref": "",
   "annal:id": "Recording_of",
   "annal:placeholder": "(select performance)",
   "annal:property_uri": "mo:records",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
+  "annal:tooltip": "Reference to recorded performance",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "Reference to recorded performance",
+  "rdfs:comment": "# Recording of\r\n\r\nReference to recorded performance",
   "rdfs:label": "Recording of"
 }

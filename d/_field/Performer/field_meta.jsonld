@@ -18,14 +18,14 @@
   "annal:field_render_type": "_enum_render_type/Enum_optional",
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "crm:E39_Actor",
-  "annal:group_ref": "",
   "annal:id": "Performer",
   "annal:placeholder": "(performer of work)",
   "annal:property_uri": "crm:P12i_was_present_at",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
+  "annal:tooltip": "Performer",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "Performer",
+  "rdfs:comment": "# Performer\r\n\r\nPerformer",
   "rdfs:label": "Performer"
 }

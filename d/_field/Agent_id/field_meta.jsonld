@@ -18,14 +18,14 @@
   "annal:field_render_type": "_enum_render_type/EntityId",
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "annal:Slug",
-  "annal:group_ref": "",
   "annal:id": "Agent_id",
   "annal:placeholder": "(person id)",
   "annal:property_uri": "annal:id",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
+  "annal:tooltip": "Local Id of agent (person, group, etc.)",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "Local Id of agent (person, group, etc.)",
+  "rdfs:comment": "# Agent id\r\n\r\nLocal Id of agent (person, group, etc.)",
   "rdfs:label": "Agent id"
 }

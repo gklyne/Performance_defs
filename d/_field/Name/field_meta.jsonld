@@ -18,14 +18,14 @@
   "annal:field_render_type": "_enum_render_type/Text",
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "annal:Text",
-  "annal:group_ref": "",
   "annal:id": "Name",
   "annal:placeholder": "(name of person, group, etc.)",
   "annal:property_uri": "rdfs:label",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
+  "annal:tooltip": "Name of agent (person, group or other entity)",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "Name of agent (person, group or other entity)",
+  "rdfs:comment": "# Name\r\n\r\nName of agent (person, group or other entity)",
   "rdfs:label": "Name"
 }

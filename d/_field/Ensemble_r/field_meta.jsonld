@@ -11,6 +11,13 @@
   ],
   "annal:default_value": "",
   "annal:field_entity_type": "",
+  "annal:field_fields": [
+    {
+      "annal:field_id": "_field/Ensemble_member",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": "@id"
+    }
+  ],
   "annal:field_placement": "small:0,12",
   "annal:field_ref_field": "",
   "annal:field_ref_restriction": "",
@@ -18,14 +25,14 @@
   "annal:field_render_type": "_enum_render_type/Group_Seq_Row",
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "annal:Field_group",
-  "annal:group_ref": "_group/Ensemble_member_r",
   "annal:id": "Ensemble_r",
   "annal:placeholder": "(Repeat field Member)",
   "annal:property_uri": "crm:P107_has_current_or_former_member",
   "annal:repeat_label_add": "Add Member",
   "annal:repeat_label_delete": "Remove Member",
+  "annal:tooltip": "Members of ensemble - repeat field 'Member'",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "Members of ensemble - repeat field 'Member'",
+  "rdfs:comment": "# Members\r\n\r\nMembers of ensemble - repeat field 'Member'",
   "rdfs:label": "Members"
 }

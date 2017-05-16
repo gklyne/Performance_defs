@@ -18,14 +18,14 @@
   "annal:field_render_type": "_enum_render_type/Text",
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "annal:Text",
-  "annal:group_ref": "",
   "annal:id": "Event_date_time",
   "annal:placeholder": "(enter date (yyyy-mm-dd) or date and time (yyyy-mm-ddThh:mm:ss))",
   "annal:property_uri": "prov:startedAtTime",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
+  "annal:tooltip": "Date and time of event\r\n\r\nxsd:dateTime should be used (yyyy-mm-ddThh:mm:ss), with options to omit less significant fields. \r\n\r\n",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "Date and time of event\r\n\r\nxsd:dateTime should be used (yyyy-mm-ddThh:mm:ss), with options to omit less significant fields. \r\n\r\n",
+  "rdfs:comment": "# Event date/time\r\n\r\nDate and time of event\r\n\r\nxsd:dateTime should be used (yyyy-mm-ddThh:mm:ss), with options to omit less significant fields. \r\n\r\n",
   "rdfs:label": "Event date/time"
 }

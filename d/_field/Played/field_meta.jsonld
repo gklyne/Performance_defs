@@ -18,14 +18,14 @@
   "annal:field_render_type": "_enum_render_type/Enum_optional",
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "frbroo:F20_Performance_Work",
-  "annal:group_ref": "",
   "annal:id": "Played",
   "annal:placeholder": "(work or composition performed)",
   "annal:property_uri": "frbroo:R25F_performed",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
+  "annal:tooltip": "Reference to work performed",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "Reference to work performed",
+  "rdfs:comment": "# Work performed\r\n\r\nReference to work performed",
   "rdfs:label": "Work performed"
 }
