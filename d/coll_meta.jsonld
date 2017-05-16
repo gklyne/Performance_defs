@@ -14,6 +14,7 @@
   "annal:default_view_id": "Journal_note_view",
   "annal:default_view_type": "Journal",
   "annal:id": "Performance_defs",
+  "annal:inherit_from": "_coll/Resource_defs",
   "annal:meta_comment": "Performance DMO definitions, edited by hand - 2016-01-04",
   "annal:software_version": "0.1.37",
   "annal:type": "annal:Collection",
