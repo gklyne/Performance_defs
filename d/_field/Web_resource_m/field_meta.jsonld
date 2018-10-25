@@ -37,7 +37,7 @@
   "annal:field_value_type": "annal:Field_group",
   "annal:id": "Web_resource_m",
   "annal:placeholder": "",
-  "annal:property_uri": "coll:web_resource_m",
+  "annal:property_uri": "resource:web_resource_m",
   "annal:repeat_label_add": "Add web resource",
   "annal:repeat_label_delete": "Remove web resource",
   "annal:tooltip": "Reference to web resource fields",

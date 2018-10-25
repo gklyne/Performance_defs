@@ -14,6 +14,7 @@
   "annal:display_type": "_enum_list_type/List",
   "annal:id": "Performances",
   "annal:list_entity_selector": "\"frbroo:F31_Performance\" in [@type]",
+  "annal:list_entity_type": "frbroo:F31_Performance",
   "annal:list_fields": [
     {
       "annal:field_id": "_field/Entity_id",
@@ -28,7 +29,6 @@
       "annal:field_placement": "small:6,6"
     }
   ],
-  "annal:record_type": "frbroo:F31_Performance",
   "annal:type": "annal:List",
   "annal:type_id": "_list",
   "rdfs:comment": "List of performances",

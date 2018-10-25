@@ -16,7 +16,7 @@
   "annal:type_id": "_type",
   "annal:type_list": "_list/Journal_entries",
   "annal:type_view": "_view/Journal_entry",
-  "annal:uri": "coll:Journal",
+  "annal:uri": "journal:Journal",
   "rdfs:comment": "Contains a description or narrative that relates to a performance or entity being documented.  Use these to capture informal descriptive information.",
   "rdfs:label": "Journal entry (internal type)"
 }

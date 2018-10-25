@@ -20,7 +20,7 @@
   "annal:field_value_type": "annal:Audio",
   "annal:id": "Uploaded_audio",
   "annal:placeholder": "(Select audio clip to upload)",
-  "annal:property_uri": "coll:uploaded_audio",
+  "annal:property_uri": "resource:uploaded_audio",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
   "annal:tooltip": "Uploaded audio clip",

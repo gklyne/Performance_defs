@@ -20,7 +20,7 @@
   "annal:field_value_type": "annal:Boolean",
   "annal:id": "Moderated",
   "annal:placeholder": "(check if comment is OK to publish)",
-  "annal:property_uri": "coll:moderated",
+  "annal:property_uri": "perf:moderated",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
   "annal:tooltip": "True if comment has passed moderation",

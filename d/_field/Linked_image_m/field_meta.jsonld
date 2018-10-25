@@ -32,7 +32,7 @@
   "annal:field_value_type": "annal:Field_group",
   "annal:id": "Linked_image_m",
   "annal:placeholder": "(select image)",
-  "annal:property_uri": "coll:linked_image",
+  "annal:property_uri": "resource:linked_image",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
   "annal:tooltip": "Reference to linked image fields",

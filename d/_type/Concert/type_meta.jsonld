@@ -32,7 +32,7 @@
   "annal:type_id": "_type",
   "annal:type_list": "_list/Concerts",
   "annal:type_view": "_view/Concert",
-  "annal:uri": "coll:Concert",
+  "annal:uri": "perf:Concert",
   "rdfs:comment": "A public event at which some performance (music, artistic, etc.) is presented.\r\n\r\nAn event that takes place in a specific time and place.\r\n\r\nA performance further involves performers and/or group and a composition or script.\r\n\r\nSee also: Erlangen [frbroo:F31_Performance](http://erlangen-crm.org/docs/efrbroo/latest/classes/F31Performance___109147093.html) and [F20_Performance_Work](http://erlangen-crm.org/docs/efrbroo/latest/classes/F20PerformanceWork___1623796283.html)",
   "rdfs:label": "Concert performance"
 }

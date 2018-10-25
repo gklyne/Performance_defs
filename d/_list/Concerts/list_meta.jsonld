@@ -13,7 +13,8 @@
   "annal:default_view": "_view/Concert",
   "annal:display_type": "_enum_list_type/List",
   "annal:id": "Concerts",
-  "annal:list_entity_selector": "\"coll:Concert\" in [@type]",
+  "annal:list_entity_selector": "\"perf:Concert\" in [@type]",
+  "annal:list_entity_type": "perf:Concert",
   "annal:list_fields": [
     {
       "annal:field_id": "_field/Entity_id",
@@ -24,7 +25,6 @@
       "annal:field_placement": "small:3,9"
     }
   ],
-  "annal:record_type": "coll:Concert",
   "annal:type": "annal:List",
   "annal:type_id": "_list",
   "rdfs:comment": "List of concert performances",

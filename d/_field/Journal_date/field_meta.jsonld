@@ -20,7 +20,7 @@
   "annal:field_value_type": "annal:Text",
   "annal:id": "Journal_date",
   "annal:placeholder": "(enter date, e.g. YYYY-MM-DD)",
-  "annal:property_uri": "coll:date",
+  "annal:property_uri": "journal:date",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
   "annal:tooltip": "Date of entry - any format can be used, but ISO (YYYY-MM-DD has the advantage that it naturally sorts in chronological order.",

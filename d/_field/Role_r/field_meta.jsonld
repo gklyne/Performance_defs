@@ -27,7 +27,7 @@
   "annal:field_value_type": "annal:Field_group",
   "annal:id": "Role_r",
   "annal:placeholder": "(Repeat field Role)",
-  "annal:property_uri": "coll:performs_role",
+  "annal:property_uri": "perf:performs_role",
   "annal:repeat_label_add": "Add role",
   "annal:repeat_label_delete": "Remove role",
   "annal:tooltip": "Roles performed across all events (as opposed to role in specific event).",

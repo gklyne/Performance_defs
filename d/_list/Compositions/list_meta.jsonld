@@ -14,6 +14,7 @@
   "annal:display_type": "_enum_list_type/List",
   "annal:id": "Compositions",
   "annal:list_entity_selector": "\"frbroo:F20_Performance_Work\" in [@type]",
+  "annal:list_entity_type": "frbroo:F20_Performance_Work",
   "annal:list_fields": [
     {
       "annal:field_id": "_field/Entity_id",
@@ -24,7 +25,6 @@
       "annal:field_placement": "small:0,12;medium:3,9"
     }
   ],
-  "annal:record_type": "frbroo:F20_Performance_Work",
   "annal:type": "annal:List",
   "annal:type_id": "_list",
   "rdfs:comment": "This list displays known compositions or performed works",

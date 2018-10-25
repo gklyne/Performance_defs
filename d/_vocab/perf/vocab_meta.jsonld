@@ -1,0 +1,19 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_vocab/perf",
+  "@type": [
+    "annal:Vocabulary"
+  ],
+  "annal:id": "perf",
+  "annal:type": "annal:Vocabulary",
+  "annal:type_id": "_vocab",
+  "annal:uri": "http://id.annalist.net/perf/",
+  "rdfs:comment": "# Namespace for performance definitions terms\r\n\r\nVocabulary namespace for special terms that are defined and used locally by performance descriptions\r\n",
+  "rdfs:label": "Namespace for performance definitions terms",
+  "rdfs:seeAlso": []
+}

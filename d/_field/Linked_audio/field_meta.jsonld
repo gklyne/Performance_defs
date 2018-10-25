@@ -20,7 +20,7 @@
   "annal:field_value_type": "annal:Audio",
   "annal:id": "Linked_audio",
   "annal:placeholder": "(Enter audio clip URL)",
-  "annal:property_uri": "coll:audio_clip",
+  "annal:property_uri": "resource:linked_audio",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
   "annal:tooltip": "Linked audio clip",

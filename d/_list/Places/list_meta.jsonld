@@ -14,6 +14,7 @@
   "annal:display_type": "_enum_list_type/List",
   "annal:id": "Places",
   "annal:list_entity_selector": "\"crm:E53_Place\" in [@type]",
+  "annal:list_entity_type": "crm:E53_Place",
   "annal:list_fields": [
     {
       "annal:field_id": "_field/Entity_id",
@@ -24,7 +25,6 @@
       "annal:field_placement": "small:3,9"
     }
   ],
-  "annal:record_type": "crm:E53_Place",
   "annal:type": "annal:List",
   "annal:type_id": "_list",
   "rdfs:comment": "List of places",

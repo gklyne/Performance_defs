@@ -13,7 +13,8 @@
   "annal:default_view": "_view/Linked_image",
   "annal:display_type": "_enum_list_type/List",
   "annal:id": "Linked_images",
-  "annal:list_entity_selector": "\"coll:Linked_image\" in [@type]",
+  "annal:list_entity_selector": "\"journal:Linked_image\" in [@type]",
+  "annal:list_entity_type": "journal:Linked_image",
   "annal:list_fields": [
     {
       "annal:field_id": "_field/Entity_id",
@@ -24,7 +25,6 @@
       "annal:field_placement": "small:3,9"
     }
   ],
-  "annal:record_type": "coll:Linked_image",
   "annal:type": "annal:List",
   "annal:type_id": "_list",
   "rdfs:comment": "List of linked images",

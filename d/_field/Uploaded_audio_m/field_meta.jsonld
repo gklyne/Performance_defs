@@ -32,7 +32,7 @@
   "annal:field_value_type": "annal:Text",
   "annal:id": "Uploaded_audio_m",
   "annal:placeholder": "",
-  "annal:property_uri": "coll:uploaded_audio_m",
+  "annal:property_uri": "resource:uploaded_audio_m",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
   "annal:tooltip": "Shows id+label fields of audio clip entry",

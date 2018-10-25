@@ -16,7 +16,7 @@
   "annal:type_id": "_type",
   "annal:type_list": "_list/Feedback",
   "annal:type_view": "_view/Feedback",
-  "annal:uri": "coll:Feedback",
+  "annal:uri": "perf:Feedback",
   "rdfs:comment": "This record type is used to record feedback about a performance.",
   "rdfs:label": "Feedback record"
 }

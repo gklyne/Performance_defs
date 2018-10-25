@@ -32,7 +32,7 @@
   "annal:field_value_type": "annal:Field_group",
   "annal:id": "Uploaded_image_m",
   "annal:placeholder": "(select image)",
-  "annal:property_uri": "coll:uploaded_image_m",
+  "annal:property_uri": "resource:uploaded_image_m",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
   "annal:tooltip": "Reference to uploaded image fields",

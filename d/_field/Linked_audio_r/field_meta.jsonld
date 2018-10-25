@@ -27,7 +27,7 @@
   "annal:field_value_type": "annal:Field_group",
   "annal:id": "Linked_audio_r",
   "annal:placeholder": "(select audio clip)",
-  "annal:property_uri": "coll:linked_audio_clips",
+  "annal:property_uri": "resource:linked_audio_clips",
   "annal:repeat_label_add": "Add audio clip",
   "annal:repeat_label_delete": "Remove audio clip",
   "annal:tooltip": "References to linked audio clips",

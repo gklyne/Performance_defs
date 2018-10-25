@@ -14,6 +14,7 @@
   "annal:display_type": "_enum_list_type/List",
   "annal:id": "Roles",
   "annal:list_entity_selector": "\"prov:Role\" in [@type]",
+  "annal:list_entity_type": "prov:Role",
   "annal:list_fields": [
     {
       "annal:field_id": "Entity_id",
@@ -24,7 +25,6 @@
       "annal:field_placement": "small:3,9"
     }
   ],
-  "annal:record_type": "prov:Role",
   "annal:type": "annal:List",
   "annal:type_id": "_list",
   "rdfs:comment": "List of roles that may be performed by people or agents in events or activities.",

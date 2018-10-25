@@ -20,7 +20,7 @@
   "annal:field_value_type": "annal:Text",
   "annal:id": "Journal_location",
   "annal:placeholder": "(enter location summary)",
-  "annal:property_uri": "coll:location",
+  "annal:property_uri": "journal:location",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
   "annal:tooltip": "Location of journal entry.  One-line short descriptive text.",

@@ -14,6 +14,7 @@
   "annal:display_type": "_enum_list_type/List",
   "annal:id": "Agents",
   "annal:list_entity_selector": "\"prov:Agent\" in [@type]",
+  "annal:list_entity_type": "prov:Agent",
   "annal:list_fields": [
     {
       "annal:field_id": "_field/Agent_id",
@@ -24,7 +25,6 @@
       "annal:field_placement": "small:3,9"
     }
   ],
-  "annal:record_type": "prov:Agent",
   "annal:type": "annal:List",
   "annal:type_id": "_list",
   "rdfs:comment": "List of agents",

@@ -20,7 +20,7 @@
   "annal:field_value_type": "annal:Image",
   "annal:id": "Linked_image",
   "annal:placeholder": "(Enter image URL)",
-  "annal:property_uri": "coll:linked_image",
+  "annal:property_uri": "resource:linked_image",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
   "annal:tooltip": "Linked image",

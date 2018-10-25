@@ -34,7 +34,7 @@
   "annal:type_id": "_type",
   "annal:type_list": "_list/Agents",
   "annal:type_view": "_view/Musician",
-  "annal:uri": "coll:Musician",
+  "annal:uri": "perf:Musician",
   "rdfs:comment": "Person (as performer agent)\r\n\r\nSee also: [Agent](../Agent) and [Performer](../Performer).",
   "rdfs:label": "Musician"
 }

@@ -15,7 +15,7 @@
     {
       "annal:field_id": "_field/Recording",
       "annal:field_placement": "small:0,12",
-      "annal:property_uri": "coll:recorded"
+      "annal:property_uri": "perf:recorded"
     }
   ],
   "annal:field_placement": "small:0,12",
@@ -27,7 +27,7 @@
   "annal:field_value_type": "annal:Field_group",
   "annal:id": "Recording_r",
   "annal:placeholder": "(discography of performer)",
-  "annal:property_uri": "coll:recorded_repeat",
+  "annal:property_uri": "perf:recorded_repeat",
   "annal:repeat_label_add": "Add recording",
   "annal:repeat_label_delete": "Remove recording",
   "annal:tooltip": "Discography of performer",

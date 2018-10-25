@@ -20,7 +20,7 @@
   "annal:field_value_type": "annal:Image",
   "annal:id": "Uploaded_image",
   "annal:placeholder": "(Select image to upload)",
-  "annal:property_uri": "coll:uploaded_image",
+  "annal:property_uri": "resource:uploaded_image",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
   "annal:tooltip": "Uploaded image",

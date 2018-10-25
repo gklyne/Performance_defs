@@ -16,7 +16,7 @@
   "annal:type_id": "_type",
   "annal:type_list": "_list/Uploaded_images",
   "annal:type_view": "_view/Uploaded_image",
-  "annal:uri": "coll:Uploaded_image",
+  "annal:uri": "resource:Uploaded_image",
   "rdfs:comment": "Uploaded image (internal type)",
   "rdfs:label": "Uploaded image (internal type)"
 }

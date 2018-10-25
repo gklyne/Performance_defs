@@ -20,7 +20,7 @@
   "annal:field_value_type": "annal:Text",
   "annal:id": "Star_rating",
   "annal:placeholder": "(rate performance on a scale of 1-5, where 1=poor to 5=the best)",
-  "annal:property_uri": "coll:rating",
+  "annal:property_uri": "perf:rating",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
   "annal:tooltip": "Allow feedback to indicate a rating on a scale of 1-5",

@@ -20,7 +20,7 @@
   "annal:field_value_type": "frbroo:F26_Recording",
   "annal:id": "Recording",
   "annal:placeholder": "(recording by performer)",
-  "annal:property_uri": "coll:recorded",
+  "annal:property_uri": "perf:recorded",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
   "annal:tooltip": "Recording by performer",
